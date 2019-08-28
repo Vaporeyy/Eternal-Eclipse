@@ -1,0 +1,48 @@
+
+state={
+	id=286
+	name="STATE_286"
+
+	history={
+		owner = VIE
+		add_core_of = NLF
+		set_state_flag = tropical
+		set_state_flag = riverlarge
+		set_state_flag = nominal
+		set_state_flag = semideveloped
+		buildings = {
+			infrastructure = 2
+			state_infrastructure = 2
+			industrial_complex = 5
+			air_base = 2
+			arms_factory = 3
+			fossil_fuel_powerplant = 5
+			4401 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			4401 50 
+		}
+		add_core_of = VIE
+		add_core_of = VIN
+		1975.1.1 = {
+			owner = VIN
+			set_state_name = "Ho Chi Minh City" 
+			set_province_name = {
+				id = 4401
+				name = "Ho Chi Minh City"
+			}
+		}
+
+	}
+
+	provinces={
+		1396 4401 7238 7347 10261 12232 13705 13707 13709 13710 13711 13714 13715 
+	}
+	manpower=7420000
+	buildings_max_level_factor=1.000
+	state_category=pop7dev2
+}

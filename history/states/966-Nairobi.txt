@@ -1,0 +1,34 @@
+
+state = {
+	id = 966
+	name = "STATE_966"
+
+	history = {
+		owner = KEN
+		set_state_flag = desertlush
+		set_state_flag = river
+		set_state_flag = nominal
+		set_state_flag = poor
+		add_core_of = KEN
+		buildings = {
+			infrastructure = 3
+			state_infrastructure = 2
+
+			arms_factory = 1
+			fossil_fuel_powerplant = 2
+
+		}
+		victory_points = {
+			1939 10 
+		}
+
+	}
+
+	provinces = {
+		1939 13788 13789 13790 13787
+		 
+	}
+	manpower = 5668123
+	buildings_max_level_factor = 1.000
+	state_category = pop5dev2
+}

@@ -1,0 +1,19 @@
+spriteTypes = {	
+
+
+
+	
+	spriteType = {
+		name = "GFX_idea_international_aid2"
+		texturefile = "gfx/interface/ideas/international_aid2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Corrupt_officialz"
+		texturefile = "gfx/interface/ideas/Corrupt_officialz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Restricted_rights"
+		texturefile = "gfx/interface/ideas/Restricted_rights.dds"
+	}

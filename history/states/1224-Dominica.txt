@@ -1,0 +1,31 @@
+state = {
+	id = 1224
+	name = "STATE_1224"
+	history = {
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			state_infrastructure = 2
+
+			7123 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DMN
+		add_core_of = BAD
+		1958.1.1 = {
+			owner = BAD
+		}
+		1962.1.1 = {
+			owner = DMN
+			remove_core_of = BAD
+		}
+			victory_points = { 7123 1 }
+	}
+	provinces = {
+		7123 
+	}
+	manpower = 71293
+	buildings_max_level_factor = 1.000
+	state_category = small_island
+}

@@ -1,0 +1,47 @@
+﻿capital = 525 #South Korea - Seoul or Busan
+
+oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = Reactionary_Autocracy
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	Vanguard_Communism = 0
+	Post_Leftism = 13
+	Social_Democracy = 12
+	Liberalism = 6
+	Centrism = 3
+	Conservatism = 6
+	Reactionary_Autocracy = 41
+	Populist_Nationalism = 17
+	Neofascism = 2
+}
+
+add_ideas = {
+	KAR_Corrupt_Officials_idea
+	KAR_Restricted_Rights_idea
+	KAR_International_Aid_idea
+	}
+
+create_country_leader = {
+	name = "Reconstruction Committee"
+	desc = ""
+	picture = "portrait_KAR_Reconstruction_Committee.dds"
+	expire = "1965.1.1"
+	ideology = Reactionary_Autocracy_subtype
+	traits = {
+		#
+	}
+}
+

@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+	
+		KAR_Corrupt_Officials_idea = {
+			
+			allowed = {
+				original_tag = RAK
+			}
+
+									
+			modifier = {
+				production_factory_max_efficiency_factor = -0.10
+				consumer_goods_factor = 0.10
+				political_power_cost = -0.15
+			}
+
+			picture = Restricted_rights
+		}
+
+		
+			
+		KAR_Restricted_Rights_idea = {
+			
+			allowed = {
+				original_tag = RAK
+			}
+
+									
+			modifier = {
+				stability_Factor = -0.05
+				war_support_weekly = -0.02
+			}
+
+			picture = Restricted_rights
+		}
+
+		KAR_International_Aid_idea = {
+			
+			allowed = {
+				original_tag = RAK
+			}
+			
+						
+			modifier = {
+				political_power_gain = 0.05
+				industrial_capacity_factory = -0.5
+			}
+			
+			picture = international_aid2
+		}
+	}	
+}
