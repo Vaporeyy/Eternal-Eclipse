@@ -29,15 +29,15 @@ set_popularities = {
 }
 
 add_ideas = {
-	KAR_Corrupt_Officials_idea
-	KAR_Restricted_Rights_idea
-	KAR_International_Aid_idea
+	RAK_Corrupt_Officials_idea
+	RAK_Restricted_Rights_idea
+	RAK_International_Aid_idea
 	}
 
 create_country_leader = {
 	name = "Reconstruction Committee"
 	desc = ""
-	picture = "portrait_KAR_Reconstruction_Committee.dds"
+	picture = "portrait_RAK_Reconstruction_Committee.dds"
 	expire = "1965.1.1"
 	ideology = Reactionary_Autocracy_subtype
 	traits = {

@@ -10,7 +10,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_Corrupt_officialz"
-		texturefile = "gfx/interface/ideas/Corrupt_officialz.dds"
+		texturefile = "gfx/interface/ideas/corrupt_officialz.dds"
 	}
 	
 	spriteType = {

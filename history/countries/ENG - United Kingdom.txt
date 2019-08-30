@@ -1,0 +1,50 @@
+﻿capital = 126
+
+#oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 5
+
+set_politics = {
+	ruling_party = Conservatism
+	last_election = "1935.11.14"
+	election_frequency = 48
+	elections_allowed = yes 
+}
+set_popularities = {
+	Vanguard_Communism = 7
+	Post_Leftism = 14
+	Social_Democracy = 14
+	Liberalism = 13
+	Centrism = 9
+	Conservatism = 11
+	Reactionary_Autocracy = 10
+	Populist_Nationalism = 14
+	Neofascism = 8
+}
+
+
+
+
+
+create_country_leader = {
+	name = "Winston Churchill"
+	desc = "POLITICS_WINSTON_CHURCHILL_DESC"
+	picture = "Portrait_Britain_Winston_Churchill.dds"
+	expire = "1965.1.1"
+	ideology = Conservatism_subtype
+	traits = {
+		#traits here need to also be added to events britain.9 and britain.10. Don't ask why.
+	}
+}
+
+add_ideas = {
+	
+	}
+
+

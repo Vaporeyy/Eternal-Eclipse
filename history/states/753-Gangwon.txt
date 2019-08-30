@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = KOR
+		owner = RAK
 		set_state_flag = temperate
 		set_state_flag = river
 		set_state_flag = small
@@ -24,7 +24,7 @@ state = {
 			12011 3
 		}
 		add_core_of = KOR
-		add_core_of = KPA
+		add_core_of = RAK
 
 	}
 

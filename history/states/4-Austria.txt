@@ -7,7 +7,7 @@ state = {
 	}
 
 	history = {
-		owner = USA
+		owner = AUS
 		set_state_flag = mountains
 		set_state_flag = basic
 		set_state_flag = small
@@ -26,7 +26,7 @@ state = {
 
 		}
 		add_core_of = AUS
-		add_core_of = ADR
+		
 		1955.1.1 = {
 			owner = AUS
 

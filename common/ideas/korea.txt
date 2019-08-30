@@ -2,7 +2,7 @@ ideas = {
 
 	country = {
 	
-		KAR_Corrupt_Officials_idea = {
+		RAK_Corrupt_Officials_idea = {
 			
 			allowed = {
 				original_tag = RAK
@@ -20,7 +20,7 @@ ideas = {
 
 		
 			
-		KAR_Restricted_Rights_idea = {
+		RAK_Restricted_Rights_idea = {
 			
 			allowed = {
 				original_tag = RAK
@@ -35,7 +35,7 @@ ideas = {
 			picture = Restricted_rights
 		}
 
-		KAR_International_Aid_idea = {
+		RAK_International_Aid_idea = {
 			
 			allowed = {
 				original_tag = RAK

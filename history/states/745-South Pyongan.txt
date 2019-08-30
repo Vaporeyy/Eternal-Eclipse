@@ -8,7 +8,7 @@ state = {
 	}
 
 	history = {
-		owner = KPA
+		owner = RAK
 		set_state_flag = temperate
 		set_state_flag = river
 		set_state_flag = small
@@ -27,7 +27,7 @@ state = {
 		victory_points = {
 			4052 20 
 		}
-		add_core_of = KPA
+		add_core_of = RAK
 		add_core_of = KOR
 
 	}

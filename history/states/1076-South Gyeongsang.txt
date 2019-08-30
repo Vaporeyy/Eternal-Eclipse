@@ -4,7 +4,7 @@ state = {
 	name = "STATE_1076"
 
 	history = {
-		owner = KOR
+		owner = RAK
 		buildings = {
 			infrastructure = 2
 			state_infrastructure = 2
@@ -16,7 +16,7 @@ state = {
 
 		}
 		add_core_of = KOR
-		add_core_of = KPA
+		add_core_of = RAK
 
 	}
 
