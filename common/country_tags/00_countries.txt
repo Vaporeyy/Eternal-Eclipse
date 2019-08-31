@@ -5,7 +5,7 @@ ENG = "countries/United Kingdom.txt"
 FRA = "countries/France.txt
 ITA = "countries/Italy.txt"
 AFG = "countries/Afghanistan.txt
-
+USA = "countries/United States of America.txt"
 
 
 
