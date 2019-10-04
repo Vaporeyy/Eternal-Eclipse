@@ -1,45 +1,37 @@
+state= {
+	id=2
+	name="STATE_2" # Latium
+	manpower = 2781971
+	
+	state_category = city
 
-state = {
-	id = 2
-	name = "STATE_2"
-
-	history = {
+	history=
+	{
 		owner = ITA
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = small
-		set_state_flag = developed
-		victory_points = {
-			9904 40 
-		}
-		victory_points = {
-			11846 5 
-		}
+		victory_points = { 9904 40 }
+		victory_points = { 11846 5 }
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 3
+			infrastructure = 8
 			air_base = 8
+			arms_factory = 1
 			industrial_complex = 4
-			arms_factory = 2
-			fossil_fuel_powerplant = 3
 			11751 = {
-				naval_base = 3
-
+				naval_base = 5
 			}
 			11846 = {
-				naval_base = 1
-
+				naval_base = 2
 			}
-
 		}
 		add_core_of = ITA
-
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 2
+				industrial_complex = 5
+			}
+		}
 	}
 
-	provinces = {
-		923 6862 9904 11751 11846 11882 
-	}
-	manpower = 2781971
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev3
+	provinces= {
+		923 6862 9794 9904 11751 11846 11882
+ 	}
 }

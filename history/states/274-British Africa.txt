@@ -1,40 +1,28 @@
+state={
+	id=274
+	name="STATE_274"
 
-state = {
-	id = 274
-	name = "STATE_274"
-	resources = {
-		aluminium = 13.000
-		rubber = 8.000
-		oil = 7.000
-	}
-
-	history = {
+	history={
 		owner = GHA
-		set_state_flag = tropical
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = abjectpoor
+		add_core_of = GHA
 		victory_points = {
-			11088 5 
+			10862 1 
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
+			infrastructure = 3
+			10862 = {
+				naval_base = 2
 
-			industrial_complex = 2
-			arms_factory = 1
-			fossil_fuel_powerplant = 2
-			
+			}
 
 		}
-		add_core_of = GHA
 
 	}
 
-	provinces = {
-		11088 
+	provinces={
+		8039 8096 10862 12742 12785 12787 13136 
 	}
-	manpower = 4010054
-	buildings_max_level_factor = 1.000
-	state_category = pop4
+	manpower=3163600
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

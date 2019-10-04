@@ -1,40 +1,25 @@
 
-state = {
-	id = 355
-	name = "STATE_355"
-	resources = {
-		steel = 5.000
-	}
+state={
+	id=355
+	name="STATE_355"
+	manpower = 1151863
+	state_category = rural
 
-	history = {
+	history={
 		owner = TUR
-		set_state_flag = lushdesert
-		set_state_flag = river
-		set_state_flag = small
-		set_state_flag = undeveloped
 		victory_points = {
-			11894 5 
+			11881 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-			air_base = 2
-			11894 = {
-				naval_base = 2
-
+			infrastructure = 3
+			11881 = {
+				naval_base = 3
 			}
-
 		}
 		add_core_of = TUR
-
 	}
 
-	provinces = {
-		933 960 3935 9900 9915 11881 11894 
+	provinces={
+		933 960 975 3935 3965 9900 9915 11881 11894 
 	}
-	manpower = 1151863
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

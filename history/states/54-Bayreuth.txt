@@ -1,45 +1,30 @@
 
-state = {
-	id = 54
-	name = "STATE_54"
+state={
+	id=54
+	name="STATE_54"
+	manpower = 2508159
 
-	history = {
-		owner = BAV
-		set_state_flag = temperate
-		set_state_flag = riverlarge
-		set_state_flag = micro
-		set_state_flag = developed
-		add_core_of = BAV
-		1949.1.1 = {
-			owner = WGR
-			remove_core_of = BAV
+	state_category = city
 
-		}
-		victory_points = {
-			13366 5 
-		}
-		victory_points = {
-			13598 1
-		}
+	history={
+		owner = GER
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			13598 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 7
+			industrial_complex = 2
 		}
-		add_core_of = WGR
-		add_core_of = DDR
+		victory_points = {
+			11544 10 
+		}
+		add_core_of = GER
 
+		1939.1.1 = {
+			buildings = {
+				air_base = 3
+			}
+		}
 	}
 
-	provinces = {
-		13366 13598 
+	provinces={
+		561 3474 6421 6594 9416 9557 9572 11404 11417 11529 11544 13116 
 	}
-	manpower = 671489
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev3
 }

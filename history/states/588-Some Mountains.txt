@@ -1,36 +1,29 @@
-
-state = {
-	id = 588
-	name = "STATE_588"
-	resources = {
-		chromium = 12.000
+state={
+	id=588
+	name="STATE_588"
+	
+	state_category = rural
+	
+	resources={
+		chromium=16 # was: 22.000
 	}
 
-	history = {
-		owner = SOV
-		set_state_flag = lushdesert
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = undevloped
-		buildings = {
-			infrastructure = 1
-			state_infrastructure = 1
-
-
-		}
+	history={
+		owner = KAZ
 		add_core_of = KAZ
-		add_core_of = SOV
-		1985.1.1 = {
-			owner = KAZ
-			remove_core_of = SOV
+		buildings = {
+			infrastructure = 4
+
 		}
-
+		
+		victory_points = {
+			12594 1
+		}
 	}
 
-	provinces = {
-		1668 1749 1818 1864 4674 4764 4867 7332 7784 7890 10161 10218 10290 10584 10610 10653 10680 12427 12564 12594 12635 12662 
+	provinces={
+		1287 1749 1818 1864 1879 4661 4670 4674 4685 4867 7317 7350 7708 7890 10161 10202 10218 10235 10292 10584 10610 10630 10653 12427 12564 12594 12616 12635 13151 
 	}
-	manpower = 659223
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
+	manpower=659223
+	buildings_max_level_factor=1.000
 }

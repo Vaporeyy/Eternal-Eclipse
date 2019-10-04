@@ -1,39 +1,36 @@
 
-state = {
-	id = 46
-	name = "STATE_46"
-	resources = {
-		oil = 105
-		steel = 25
+state={
+	id=46
+	name="STATE_46" # Muntenia
+	manpower = 4461400
+	resources={
+		oil=44 # was: 70
 	}
 
-	history = {
-		owner = ROM
-		set_state_flag = temperate
-		set_state_flag = riverlarge
-		set_state_flag = nominal
-		set_state_flag = wealthy
-		victory_points = { 9617 30 }
-		victory_points = { 3663 5 }
-		victory_points = { 11636 5 }
-		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
+	state_category = city
 
+	history={
+		owner = ROM
+		victory_points = { 9617 20 }
+		victory_points = { 3663 5 }
+		victory_points = { 657 3 }
+		buildings = {
+			infrastructure = 6
 			arms_factory = 4
-			industrial_complex = 5
-			air_base = 7
-			fossil_fuel_powerplant = 2
-			synthetic_refinery = 3
+			industrial_complex = 1
+			air_base = 3
+			657 = {
+				naval_base = 8
+			}
+			687 = {
+				naval_base = 1
+			}
+			dockyard = 1
 		}
 		add_core_of = ROM
-
 	}
 
-	provinces = {
-		660 674 818 3636 3639 3663 6658 6677 6695 9617 9651 11603 11619 11636 
+	provinces={
+		657 660 674 687 818 3076 3636 3639 3663 6658 6677 6695 9617 9635 9651 11603 11619 11636 
 	}
-	manpower = 4461400
-	buildings_max_level_factor = 1.000
-	state_category = pop4dev3
 }

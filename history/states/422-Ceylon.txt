@@ -1,47 +1,37 @@
+state=
+{
+	id=422
+	name="STATE_422"
+	manpower = 5500000
+	
+	state_category = rural
 
-state = {
-	id = 422
-	name = "STATE_422"
-	resources = {
-		rubber = 84.000
+	resources={
+		rubber=60 # was: 116
 	}
 
-	history = {
-		owner = ENG
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = verypoor
+	history={
 		add_core_of = SRL
-		1948.1.1 = {
-			owner = SRL
-
-		}
+		owner = SRL
 		victory_points = {
-			7260 10 
-		}
-		victory_points = {
-			13275 11 
+			10201 3 
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
+			infrastructure = 3
 			industrial_complex = 1
-			fossil_fuel_powerplant = 2
-			air_base = 4
-			7260 = {
-				naval_base = 2
-
+			air_base = 3
+			10201 = {
+				naval_base = 5
 			}
-
+			7260 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
 		}
 
 	}
-
+	
 	provinces={
-		1213 4219 7260 10197 10287 13275 
+		1213 4219 7260 7344 10201 10229 10287 12258 
 	}
-	manpower = 4579810
-	buildings_max_level_factor = 1.000
-	state_category = pop4dev1
 }

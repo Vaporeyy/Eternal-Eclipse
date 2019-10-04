@@ -1,31 +1,25 @@
 
-state = {
-	id = 475
-	name = "STATE_475"
-	resources = {
-		oil = 30.000
-	}
+state={
+	id=475
+	name="STATE_475"
+	manpower = 805874
+	
+	state_category = rural
 
-	history = {
+	history={
 		owner = MEX
-		set_state_flag = mountains
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-
+			infrastructure = 3
 		}
 		add_core_of = MEX
 
+		victory_points = {
+			1900 3
+		}
 	}
 
-	provinces = {
-		1900 12753 13416 13419 
+	provinces={
+		1900 12753 12867 
 	}
-	manpower = 805874
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	
 }

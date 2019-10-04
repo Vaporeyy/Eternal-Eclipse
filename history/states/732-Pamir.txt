@@ -1,39 +1,25 @@
+state={
+	id=732
+	name="STATE_732"
 
-state = {
-	id = 732
-	name = "STATE_732"
-	resources = {
-		aluminium = 11.000
-	}
-
-	history = {
-		owner = SOV
-		set_state_flag = mountainshot
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = verypoor
+	history={
+		
+		owner = KYR
+		victory_points = {
+			12583 1
+		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
-
 
 		}
-		add_core_of = TAJ
-		add_core_of = SOV
-		add_core_of = PRC
-		add_core_of = CHI
-		1990.8.1 = {
-			owner = TAJ
-			remove_core_of = SOV
-
-		}
+		add_core_of = KYR
 
 	}
 
-	provinces = {
-		4467 4923 8027 10417 12805 13374 
+	provinces={
+		1483 1675 1825 2058 4224 4316 4391 4467 4768 4923 5062 10408 10530 10660 12370 12511 12581 12583 13147 
 	}
-	manpower = 135000
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

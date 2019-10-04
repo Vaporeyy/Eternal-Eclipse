@@ -1,40 +1,21 @@
 
-state = {
-	id = 655
-	name = "STATE_655"
-	resources = {
-		oil = 4.000
-	}
-
-	history = {
+state={
+	id=655
+	name="STATE_655"
+	manpower = 94759
+	
+	state_category = pastoral
+	history={
 		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = semideveloped
 		add_core_of = SOV
-		victory_points = {
-			12446 1 
-		}
+		add_claim_by = JAP
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
+			infrastructure = 3
 			air_base = 1
-			fossil_fuel_powerplant = 1
-			12446 = {
-				naval_base = 1
-
-			}
-
 		}
-
 	}
 
-	provinces = {
-		855 1322 1742 1755 1820 12446 
+	provinces={
+		855 1742 1755 
 	}
-	manpower = 497973
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

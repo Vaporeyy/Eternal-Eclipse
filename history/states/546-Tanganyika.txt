@@ -1,43 +1,31 @@
-
-state = {
-	id = 546
-	name = "STATE_546"
-	resources = {
-		steel = 18.000
+state={
+	id=546
+	name="STATE_546"
+	
+	state_category = rural
+	resources={
+		rubber=2 # was: 2
 	}
-
-	history = {
-		owner = ENG
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = poor
-		add_core_of = TZN
-		1961.1.1 = {
-			owner = TZN
-		}
+	history={
+		owner = EAF
 		victory_points = {
-			2196 5 
+			2196 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 3
-			arms_factory = 1
+			infrastructure = 3
 			2196 = {
-				naval_base = 4
+				naval_base = 2
 
 			}
 
 		}
-
+			add_core_of = TZN
+			add_core_of = TZN
 	}
 
-	provinces = {
-		2196 2206 5224 8183 8205 12911 
+	provinces={
+		2176 2196 2206 2281 2308 4171 5180 5224 8144 8182 8183 8201 8205 10845 10932 10988 11017 12911 12944 12967 
 	}
-	manpower = 4364541
-	buildings_max_level_factor = 1.000
-	state_category = pop4
+	manpower=5299000
+	buildings_max_level_factor=1.000
 }

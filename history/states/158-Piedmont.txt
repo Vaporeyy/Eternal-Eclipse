@@ -1,42 +1,46 @@
 
-state = {
-	id = 158
-	name = "STATE_158"
-	resources = {
-		steel = 48.000
-		aluminium = 28.000
-		chromium = 4.000
-		tungsten = 15.000
+state={
+	id=158
+	name="STATE_158"
+	manpower = 4765476
+	
+	state_category = metropolis
+	resources={
+		steel=24 # was: 40
+		aluminium=16 # was: 28
+		chromium = 2 # was: 4
+		tungsten = 1 # was: 2
 	}
 
-	history = {
+	history={
 		owner = ITA
-		set_state_flag = mountains
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = semideveloped
+		victory_points = {
+			6788 10 
+		}
 		victory_points = {
 			6780 5 
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 2
-			arms_factory = 1
-			fossil_fuel_powerplant = 2
-			air_base = 4
-
-
+			infrastructure = 7
+			arms_factory = 7
+			industrial_complex = 1
+			dockyard = 2
+			air_base = 8
+			6788 = {
+				naval_base = 8
+			}
 		}
 		add_core_of = ITA
-
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 10
+				industrial_complex = 2
+				dockyard = 3
+			}
+		}
 	}
 
-	provinces = {
-		770 771 776 3782 6635 6780 9738 9741 11721 11723 11726 11730 
+	provinces={
+		611 770 771 776 3772 3782 6635 6780 6788 9738 9741 11570 11721 11723 11726 11730 11891 
 	}
-	manpower = 4377941
-	buildings_max_level_factor = 1.000
-	state_category = pop4dev2
 }

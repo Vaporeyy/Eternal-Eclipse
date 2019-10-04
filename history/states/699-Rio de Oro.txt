@@ -1,49 +1,25 @@
+state={
+	id=699
+	name="STATE_699"
+	manpower = 21056
+	
+	state_category = wasteland
 
-state = {
-	id = 699
-	name = "STATE_699"
-
-	history = {
-		owner = SPR
-		set_state_flag = desert
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = verypoor
-		add_core_of = MOR
+	history={
+		owner = WES
 		add_core_of = WES
-		add_core_of = MRT
-		1975.1.1 = {
-			owner = MOR
-
-		}
-		1979.1.1 = {
-			remove_core_of = MRT
-
-		}
-		victory_points = {
-			8111 5 
-		}
-		victory_points = {
-			10875 1 
-		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
-
-			industrial_complex = 1
-			10875 = {
+			8038 = {
 				naval_base = 1
-
 			}
-
 		}
-
+		victory_points = {
+			8038 1
+		}
 	}
-
-	provinces = {
-		4920 5012 8038 8111 10875 13505 
+	
+	provinces={
+		4920 5012 7979 8038 8111 10875
 	}
-	manpower = 538755
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

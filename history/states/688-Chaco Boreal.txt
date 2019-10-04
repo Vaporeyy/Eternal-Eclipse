@@ -1,31 +1,25 @@
-state = {
-	id = 688
-	name = "STATE_688"
+state={
+	id=688
+	name="STATE_688"
 	manpower = 45900
 	
-	state_category = pop1
+	state_category = pastoral
 	
-	resources = {
-		tungsten = 4
-		steel = 2
+	resources={
+		tungsten=3 # was: 4
+		steel=2 # was: 2
 	}
 
-	history = {
+	history={
 		owner = PAR
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = poor
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
+			infrastructure = 2
 		}
 		add_core_of = PAR
 		add_core_of = BOL
 	}
 	
-	provinces = {
+	provinces={
 		2195 2209 5165 8203 10973 
 	}
 }

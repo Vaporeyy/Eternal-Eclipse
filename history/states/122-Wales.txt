@@ -1,46 +1,31 @@
-
-state = {
-	id = 122
-	name = "STATE_122"
-	resources = {
-		steel = 16.000
-		aluminium = 4.000
+state= {
+	id=122
+	name="STATE_122"
+	manpower = 2309230
+	
+	state_category = city
+	
+	resources={
+		steel=11 # was: 16
+		aluminium=3 # was: 4
 	}
 
-	history = {
+	history=
+	{
 		owner = ENG
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = decent
-		victory_points = {
-			377 5 
-		}
-		victory_points = {
-			407 1 
-		}
+		victory_points = { 377 5 }
 		buildings = {
-			air_base = 1
-			infrastructure = 3
-			state_infrastructure = 2
-
+			infrastructure = 5
 			industrial_complex = 1
-			fossil_fuel_powerplant = 2
 			377 = {
 				naval_base = 3
-
 			}
-
 		}
 		add_core_of = ENG
 		add_core_of = WLS
-
 	}
 
-	provinces = {
-		253 311 377 407 3274 6363 9364 11361 
-	}
-	manpower = 2309230
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
+	provinces=
+	{
+253 311 377 407 3274 6363 9364 11361 	}
 }

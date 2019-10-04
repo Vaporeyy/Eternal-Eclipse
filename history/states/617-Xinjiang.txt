@@ -1,42 +1,27 @@
+state={
+	id=617
+	name="STATE_617"
 
-state = {
-	id = 617
-	name = "STATE_617"
-	resources = {
-		steel = 46.000
-	}
-
-	history = {
-		owner = CHI
-		set_state_flag = desertlush
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = verypoor
-		add_core_of = CHI
-		add_core_of = PRC
+	history={
+		owner = PRC
 		add_core_of = SIK
-		1950.3.1 = {
-			owner = PRC
-
-		}
+		
+		add_core_of = PRC
 		buildings = {
 			infrastructure = 3
-			state_infrastructure = 3
-
-			arms_factory = 2
-			industrial_complex = 1
+			industrial_complex = 2
 
 		}
 		victory_points = {
-			4709 10 
+			4709 3 
 		}
 
 	}
 
-	provinces = {
-		1838 4704 4709 4788 4843 7732 10614 10674 10691 10839 12524 12598 12656 12671 
+	provinces={
+		1703 4682 4709 4770 7702 7792 7850 10545 10614 12526 12601 12656 
 	}
-	manpower = 1280500
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	manpower=1080500
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

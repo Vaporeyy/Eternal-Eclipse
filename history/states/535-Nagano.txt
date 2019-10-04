@@ -1,37 +1,35 @@
 
-state = {
-	id = 535
-	name = "STATE_535"
-	resources = {
-		steel = 18.000
-		tungsten = 13.000
+state={
+	id=535
+	name="STATE_535" # Koshinetsu
+	manpower = 3871000
+	state_category = large_city
+	
+	resources={
+		steel=27 # was: 35
+		tungsten=8 # was: 10
 	}
 
-	history = {
+	history={
 		owner = JAP
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = developed
 		add_core_of = JAP
 		buildings = {
-			industrial_complex = 1
-			infrastructure = 2
-			state_infrastructure = 2
-
-			fossil_fuel_powerplant = 1
+		
+			arms_factory = 1
+			industrial_complex = 2
+			infrastructure = 3
+			dockyard = 1
+			fuel_silo = 1
 
 		}
+		
 		victory_points = {
-			10032 15 
+			10032 15
 		}
 
 	}
 
-	provinces = {
+	provinces={
 		998 7102 7217 10015 10032 
 	}
-	manpower = 3871000
-	buildings_max_level_factor = 1.000
-	state_category = pop3dev2
 }

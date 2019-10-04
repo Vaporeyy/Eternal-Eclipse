@@ -1,33 +1,24 @@
-state = {
-	id = 665
-	name = "STATE_665"
-	resources = {
-		oil = 1
-	}
-	history = {
+state={
+	id=665
+	name="STATE_665"
+
+	history={
 		owner = TUN
-		set_state_flag = desert
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = verypoor
+		add_core_of = TUN
 		victory_points = {
-			11935 1 
+			7005 1 
 		}
 		buildings = {
-		infrastructure = 1
-			state_infrastructure = 2
+			infrastructure = 3
 
-		industrial_complex = 1
-			fossil_fuel_powerplant = 1
 		}
-		add_core_of = TUN
-
 	}
+	
+	state_category = pastoral
 
-	provinces = {
-		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 
+	provinces={
+		1105 3987 4992 7005 9983 10026 10082 11935 11957 12000 13145 13179 
 	}
-	manpower = 427824
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
+	manpower=427824
+	buildings_max_level_factor=1.000
 }

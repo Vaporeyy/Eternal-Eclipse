@@ -1,44 +1,35 @@
 
-state = {
-	id = 165
-	name = "STATE_165"
-	resources = {
-		steel = 16.000
-	}
+state={
+	id=165
+	name="STATE_165"
+	manpower = 3036537
+	
+	state_category = large_city
 
-	history = {
+	history={
 		owner = SPR
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = semideveloped
 		victory_points = {
-			9764 20 
+			9764 15
+		}
+		victory_points = {
+			6966 1
+		}
+		victory_points = {
+			6927 1
 		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
-			industrial_complex = 2
+			infrastructure = 7
 			arms_factory = 1
-			dockyard = 1
-			fossil_fuel_powerplant = 1
+			industrial_complex = 1
 			air_base = 2
 			9764 = {
 				naval_base = 4
-
 			}
-
 		}
 		add_core_of = SPR
-		add_core_of = CTL
-
 	}
 
-	provinces = {
+	provinces={
 		854 872 897 3898 3899 6812 6836 6865 6927 6966 9764 9797 9824 11779 
 	}
-	manpower = 3036537
-	buildings_max_level_factor = 1.000
-	state_category = pop3dev2
 }

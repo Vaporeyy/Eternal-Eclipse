@@ -1,58 +1,24 @@
 
-state = {
-	id = 590
-	name = "STATE_590"
-	resources = {
-		oil = 13.000
-		steel = 24.000
-	}
+state={
+	id=590
+	name="STATE_590" # Akmolinsk
+	manpower = 980533
+	
+	state_category = pastoral
 
-	history = {
-		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = undeveloped
+	history={
+		owner = KAZ
+		add_core_of = KAZ
 		victory_points = {
-			4333 1 
+			4333 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			air_base = 2
-			industrial_complex = 2
-
+			infrastructure = 4
 		}
-		add_core_of = KAZ
-		add_core_of = SOV
-		1961.1.1 = {
-			set_province_name = {
-				id = 4333
-				name = Tselinograd
-
-			}
-
-		}
-		1985.1.1 = {
-			owner = KAZ
-			remove_core_of = SOV
-		}
-		1998.1.1 = {
-			set_province_name = {
-				id = 4333
-				name = Astana
-
-			}
-
-		}
-
+		
 	}
 
-	provinces = {
-		1223 1375 1680 4232 4238 4281 4309 4333 7298 7326 7383 10211 10239 10308 10633 12152 
+	provinces={
+		1223 1229 1309 1375 1391 1418 1662 1680 1694 4232 4238 4281 4309 4333 4850 7298 7326 7383 7407 7425 7741 7874 10211 10239 10308 10633 12152 12619 
 	}
-	manpower = 715000
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

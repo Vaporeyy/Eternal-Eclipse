@@ -1,39 +1,26 @@
-
-state = {
-	id = 647
-	name = "STATE_647"
-
-	history = {
-		owner = USA
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = abjectpoor
-		add_core_of = PLU
-		1986.1.1 = {
-			owner = PLU
-		}
+state=
+{
+	id=647
+	name="STATE_647"
+	state_category = small_island
+	manpower = 12100
+	history=
+	{
+		owner = JAP
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
+			infrastructure = 3
 			air_base = 1
 			4357 = {
 				naval_base = 1
 
 			}
-
 		}
+		
 		victory_points = {
-			4357 4 
+			4357 1 
 		}
-
 	}
-
-	provinces = {
-		4357 12103 
+	provinces={
+		4357 12103
 	}
-	manpower = 7441
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

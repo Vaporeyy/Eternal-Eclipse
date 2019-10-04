@@ -1,45 +1,25 @@
+state={
+	id=693
+	name="STATE_693"
+	manpower = 15000
+	
+	state_category = tiny_island
 
-state = {
-	id = 693
-	name = "STATE_693"
-
-	history = {
-		owner = ENG
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = poor
+	history={
+		add_core_of = BAH
+		owner = BAH
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
+			infrastructure = 4
 			10440 = {
 				naval_base = 1
-
 			}
-
+			1513 = {
+				naval_base = 1
+			}
 		}
-		victory_points = {
-			10440 1 
-		}
-		add_core_of = BAD
-		1958.1.1 = {
-			owner = BAD
-
-		}
-		1962.1.1 = {
-			owner = ENG
-			add_core_of = ENG
-			remove_core_of = BAD
-
-		}
-
 	}
-
-	provinces = {
-		10440 
+	
+	provinces={
+		1513 10440 
 	}
-	manpower = 31458
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

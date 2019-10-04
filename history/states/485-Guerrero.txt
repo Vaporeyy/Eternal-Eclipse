@@ -1,37 +1,39 @@
 
-state = {
-	id = 485
-	name = "STATE_485"
-	resources = {
-		steel = 8.000
+state={
+	id=485
+	name="STATE_485"
+	manpower = 1598311
+	
+	state_category = rural
+
+	resources={
+		steel=4 #was 2
 	}
 
-	history = {
-		owner = MEX
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = medium
-		set_state_flag = undeveloped
-		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
 
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 3
 			industrial_complex = 1
-			fossil_fuel_powerplant = 1
 			8032 = {
 				naval_base = 3
-
 			}
-
 		}
 		add_core_of = MEX
-
+		victory_points = {
+			10730 5
+		}
+		victory_points = {
+			4887 3
+		}
+		victory_points = {
+			8032 1
+		}
 	}
 
-	provinces = {
-		5066 8032 10730 10832 13418 
+	provinces={
+		4887 5066 8032 10730 10832 
 	}
-	manpower = 1598311
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	
 }

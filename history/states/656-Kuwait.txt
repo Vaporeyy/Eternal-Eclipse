@@ -1,38 +1,25 @@
-state = {
-	id = 656
-	name = "STATE_656"
-	manpower = 152249
+state={
+	id=656
+	name="STATE_656"
+	manpower = 80000
 	
-	state_category = pop1dev2
-
-		resources = {
-		oil = 146
-	}
+	state_category = rural
 	
-	history = {
-		owner = KUW
-		set_state_flag = desert
-		set_state_flag = riverlarge
-		set_state_flag = micro
-		set_state_flag = semideveloped
+	history={
 		add_core_of = KUW
-		add_core_of = IRQ
+		owner = KUW
 		victory_points = {
-			8085 5
+			8085 1 
 		}
 		buildings = {
-		infrastructure = 2
-			state_infrastructure = 2
-
-		industrial_complex = 1
-			fossil_fuel_powerplant = 1
+			infrastructure = 4
 			8085 = {
-				naval_base = 3
+				naval_base = 4
 			}
 		}
 
 	}
-	provinces = {
+	provinces={
 		8085
 	}
 }

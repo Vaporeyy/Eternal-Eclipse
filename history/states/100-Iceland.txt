@@ -1,40 +1,26 @@
-
-state={
+state=
+{
 	id=100
 	name="STATE_100"
-	resources={
-		aluminium=16.000
-	}
-
-	history={
+	manpower = 115870
+	
+	state_category = rural
+	
+	
+	history=
+	{
 		owner = ICE
-		set_state_flag = mountains
-		set_state_flag = freshwatersea
-		set_state_flag = medium
-		set_state_flag = developed
-		victory_points = {
-			12674 5 
-		}
+		victory_points = { 12674 1 }
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
-			industrial_complex = 1
-			fossil_fuel_powerplant = 1
-			air_base = 3
-			12674 = {
-				naval_base = 2
-
+			12674 ={
+				naval_base = 1
 			}
-
 		}
+		
 		add_core_of = ICE
-
 	}
-
-	provinces={
-		180 12674 
-	}
-	manpower=142655
-	buildings_max_level_factor=1.000
-	state_category=pop1dev3
+	provinces=
+	{
+4861 12674 12689 	}
 }

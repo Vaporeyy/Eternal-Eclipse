@@ -1,25 +1,27 @@
+state={
+	id=36
+	name="STATE_36"
 
-state = {
-	id = 36
-	name = "STATE_36"
-	resources = {
-		steel = 12.000
-	}
-
-	history = {
+	history={
 		owner = HOL
-		set_state_flag = temperate
-		set_state_flag = freshwatersea
-		set_state_flag = nominal
-		set_state_flag = developed
+		add_core_of = HOL
+		victory_points = {
+			6241 5 
+		}
+		victory_points = {
+			9363 1 
+		}
+		victory_points = {
+			9335 3 
+		}
+		victory_points = {
+			6336 1 
+		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 2
-			dockyard = 1
-			fossil_fuel_powerplant = 1
-			air_base = 1
+			infrastructure = 6
+			industrial_complex = 2
 			6336 = {
-				naval_base = 2
+				naval_base = 3
 
 			}
 
@@ -27,10 +29,10 @@ state = {
 
 	}
 
-	provinces = {
-		6336 9309 9335 11318 
+	provinces={
+		6241 6286 6336 8622 9309 9335 9363 9403 11318 
 	}
-	manpower = 646092
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev3
+	manpower=2364000
+	buildings_max_level_factor=1.000
+	state_category=city
 }

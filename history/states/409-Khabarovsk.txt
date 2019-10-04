@@ -1,41 +1,31 @@
 
-state = {
-	id = 409
-	name = "STATE_409"
-	resources = {
-		chromium = 7.000
+state={
+	id=409
+	name="STATE_409"
+	manpower = 295605
+	resources={
+		chromium=9 # was: 12
 	}
+	
+	state_category = rural
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = boreal
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = semideveloped
 		victory_points = {
-			12189 5 
+			12189 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 3
 			industrial_complex = 1
-			fossil_fuel_powerplant = 1
-			air_base = 3
-			9604 = {
-				naval_base = 2
-
+			air_base = 4
+			9604 ={
+				naval_base = 1
 			}
-
 		}
 		add_core_of = SOV
-
 	}
 
-	provinces = {
-		675 739 1267 1325 1343 1397 1772 1805 1807 1842 3664 3756 3963 4246 4290 4404 4701 4805 4810 4841 4844 4881 7249 7266 7309 7616 7748 7772 7868 7871 9589 9604 9659 9733 9749 10466 10571 10572 10577 10590 10598 11575 12136 12189 12192 12261 12263 12518 12551 12559 12569 12638 12650 
+	provinces={
+		725 739 753 1267 1325 1343 1397 1504 3756 3963 4404 6774 7249 7266 7309 9589 9604 9733 9749 10466 11575 11719 12136 12189 
 	}
-	manpower = 1343869
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

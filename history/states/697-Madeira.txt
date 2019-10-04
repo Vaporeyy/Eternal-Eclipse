@@ -1,35 +1,25 @@
+state={
+	id=697
+	name="STATE_697"
+	manpower = 211600
+	
+	state_category = small_island
 
-state = {
-	id = 697
-	name = "STATE_697"
-
-	history = {
+	history={
 		owner = POR
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = micro
-		set_state_flag = poor
+		victory_points = {
+			3118 1
+		}
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
+			infrastructure = 3
 			3118 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = POR
-		victory_points = {
-			3118 1 
-		}
-
 	}
-
-	provinces = {
+	
+	provinces={
 		3118 
 	}
-	manpower = 211600
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

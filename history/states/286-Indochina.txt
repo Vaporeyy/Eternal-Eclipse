@@ -1,48 +1,33 @@
-
 state={
 	id=286
 	name="STATE_286"
+	resources={
+		rubber=55 # was: 94.000
+	}
 
 	history={
-		owner = VIE
-		add_core_of = NLF
-		set_state_flag = tropical
-		set_state_flag = riverlarge
-		set_state_flag = nominal
-		set_state_flag = semideveloped
-		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-			industrial_complex = 5
-			air_base = 2
-			arms_factory = 3
-			fossil_fuel_powerplant = 5
-			4401 = {
-				naval_base = 3
-
-			}
-
-		}
-		victory_points = {
-			4401 50 
-		}
-		add_core_of = VIE
 		add_core_of = VIN
-		1975.1.1 = {
-			owner = VIN
-			set_state_name = "Ho Chi Minh City" 
-			set_province_name = {
-				id = 4401
-				name = "Ho Chi Minh City"
+		owner = VIN
+		victory_points = {
+			4401 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+			4401 = {
+				naval_base = 4
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		1396 4401 7238 7347 10261 12232 13705 13707 13709 13710 13711 13714 13715 
+		1285 1300 1328 1396 1400 1423 1605 4223 4284 4334 4341 4363 4401 4405 7238 7271 7303 7331 7347 7380 10162 10232 10261 12109 12133 12150 12176 12204 12232 
 	}
-	manpower=7420000
+	manpower=5245000
 	buildings_max_level_factor=1.000
-	state_category=pop7dev2
+	state_category=town
 }

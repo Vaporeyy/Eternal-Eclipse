@@ -1,35 +1,41 @@
+state=
+{
+	id=446
+	name="STATE_446"
+	manpower = 6586596
+	
+	state_category = town
 
-state = {
-	id = 446
-	name = "STATE_446"
-
-	history = {
+	history=
+	{
 		owner = EGY
-		set_state_flag = tropical
-		set_state_flag = riverlarge
-		set_state_flag = nominal
-		set_state_flag = devent
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
-			industrial_complex = 3
-			fossil_fuel_powerplant = 1
-			arms_factory = 2
-			air_base = 6
-
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 5
+			12049 = {
+				naval_base = 2
+			}
+		}
+		
+		victory_points = {
+			7011 20
 		}
 		victory_points = {
-			7011 20 
+			12049 5
 		}
+		victory_points = {
+			3996 5
+		}
+		victory_points = {
+			4073 3
+		}
+
 		add_core_of = EGY
 
 	}
 
-	provinces = {
-		7011 
+	provinces={
+		1068 3996 4055 4073 4143 7011 7188 10005 10031 12004 12049 992 7117
 	}
-	manpower = 7386596
-	buildings_max_level_factor = 1.000
-	state_category = pop7dev3
 }

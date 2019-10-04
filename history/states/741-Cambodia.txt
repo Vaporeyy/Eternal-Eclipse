@@ -1,46 +1,24 @@
-
 state={
 	id=741
 	name="STATE_741"
-
-	history={
+	history = {
+		add_core_of = CAM
 		owner = CAM
-		set_state_flag = tropical
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = undeveloped
 		victory_points = {
-			7376 20
+			7376 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-			fossil_fuel_powerplant = 1
+			infrastructure = 1
+			7432 = {
+				naval_base = 1
+			}
 
 		}
-		add_core_of = CAM
-		1968.1.1 = {
-			add_core_of = KMP
-
-		}
-		1975.1.1 = {
-			owner = KMP
-			remove_core_of = CAM
-
-		}
-		1993.1.1 = {
-			owner = CAM
-			add_core_of = CAM
-			remove_core_of = KMP
-
-		}
-
 	}
-
 	provinces={
-		7376 10317 12260 13718 13719 13720 
+		1324 1353 1620 4251 4302 4330 4359 4596 4639 5236 7319 7376 7404 7432 7645 10134 10177 10204 10289 10317 10467 12167 12191 12260 12288 12447 12460 12475 
 	}
-	manpower=1501725
+	manpower=5245000
 	buildings_max_level_factor=1.000
-	state_category=pop1dev1
+	state_category=town
 }

@@ -1,34 +1,31 @@
 
-state = {
-	id = 170
-	name = "STATE_170"
-	resources = {
-		aluminium = 11
+state={
+	id=170
+	name="STATE_170"
+	manpower = 1782253
+	
+	state_category = large_town
+	
+	resources={
+		tungsten=4 # was: 6
 	}
 
-	history = {
+	history={
 		owner = SPR
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = nominal
-		set_state_flag = undeveloped
+		victory_points = {
+			6902 1
+		}
+		victory_points = {
+			3874 1
+		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 2
-
+			infrastructure = 5
 			industrial_complex = 1
-			arms_factory = 1
-			fossil_fuel_powerplant = 1
-
 		}
 		add_core_of = SPR
-
 	}
 
-	provinces = {
-		809 931 985 3930 6866 6902 6948 6954 9839 9877 9917 9925 11780 11798 11851 
+	provinces={
+		794 809 874 931 985 3874 3930 6866 6867 6902 6948 6954 9770 9839 9877 9917 9925 11756 11780 11798 11851 
 	}
-	manpower = 1782253
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

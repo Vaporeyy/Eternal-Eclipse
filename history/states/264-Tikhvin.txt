@@ -1,30 +1,24 @@
 
-state = {
-	id = 264
-	name = "STATE_264"
+state={
+	id=264
+	name="STATE_264"
+	manpower = 185559
+	
+	state_category = rural
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = mountains
-		set_state_flag = river
-		set_state_flag = small
-		set_state_flag = undeveloped
+		victory_points = {
+			3140 1 
+		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 4
 			air_base = 1
-			fossil_fuel_powerplant = 2
-
 		}
 		add_core_of = SOV
-
 	}
 
-	provinces = {
-		685 9632 9647 9649 11614 
+	provinces={
+		39 57 93 152 172 194 3035 3085 3140 3142 3163 6131 6169 9060 9082 9107 9111 9153 9177 9184 9190 11048 11059 11083 11093 11131 11165 13129 
 	}
-	manpower = 859939
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

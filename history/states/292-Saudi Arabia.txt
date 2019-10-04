@@ -1,38 +1,31 @@
 
-state = {
-	id = 292
-	name = "STATE_292"
-	resources = {
-		oil = 12.000
+state={
+	id=292
+	name="STATE_292"
+	manpower = 1440000
+	
+	state_category = rural
+	resources={
+		oil=3 # was: 3
 	}
 
-	history = {
+	history={
 		owner = SAU
-		set_state_flag = desert
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = poor
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			arms_factory = 2
-			industrial_complex = 2
-			fossil_fuel_powerplant = 1
-			air_base = 4
-
+			infrastructure = 1
+			arms_factory = 1
+			industrial_complex = 1
+			12702 = {
+				naval_base = 6
+			}
 		}
 		victory_points = {
-			12727 10 
+			12727 5
 		}
 		add_core_of = SAU
-
 	}
 
-	provinces = {
-		5093 7995 8004 8060 9607 10870 10923 12727 12813 12870 
+	provinces={
+		 1955 2057 4968 4974 5024 5027 5058 5093 5099 7970 7995 8004 8060 8101 10791 10815 10850 10892 10901 10923 12455 12702 12727 12749 12813 12870 
 	}
-	manpower = 1440000
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

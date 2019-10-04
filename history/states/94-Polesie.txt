@@ -1,42 +1,28 @@
+state={
+	id=94
+	name="STATE_94"
 
-state = {
-	id = 94
-	name = "STATE_94"
-	resources = {
-		steel = 2.000
-	}
-
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = undeveloped
+		add_core_of = SOV
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			air_base = 2
-			industrial_complex = 1
-			fossil_fuel_powerplant = 2
+			infrastructure = 3
 
 		}
 		victory_points = {
-			3392 1 
+			3392 1
 		}
-		add_core_of = SOV
+		victory_points = {
+			560 1
+		}
+		
 		add_core_of = BLR
-		1985.1.1 = {
-			owner = BLR
-			remove_core_of = SOV
-		}
-
 	}
 
-	provinces = {
-		535 560 3256 3309 3392 3496 3556 6280 6306 6415 6546 6579 9304 9520 11285 11341 11503 11528 
+	provinces={
+		535 560 3256 3309 3392 3496 3556 6280 6306 6415 6546 6579 9520 11285 11503 11528 
 	}
-	manpower = 1232200
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
+	manpower=1232200
+	buildings_max_level_factor=1.000
+	state_category=rural
 }

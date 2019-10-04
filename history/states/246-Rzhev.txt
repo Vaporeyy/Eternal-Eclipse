@@ -1,42 +1,26 @@
 
-state = {
-	id = 246
-	name = "STATE_246"
-	resources = {
-		steel = 3.000
+state={
+	id=246
+	name="STATE_246"
+	manpower = 1025458
+	
+	state_category = rural
+	resources={
+		steel=16 # was: 24
 	}
 
-	history = {
-		owner = ZAM
-		set_state_flag = tropical
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = poor
-		add_core_of = ZAM
-		1951.1.1 = {
-			owner = ZIM
-			add_core_of = ZIM
-
-		}
-		1963.1.1 = {
-			owner = ZAM
-			remove_core_of = ZIM
-
+	history={
+		owner = SOV
+		victory_points = {
+			11349 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			fossil_fuel_powerplant = 1
-
+			infrastructure = 5
 		}
-
+		add_core_of = SOV
 	}
 
-	provinces = {
-		697 7872 10538 13608 13609 13610 13615 13620 
+	provinces={
+		187 226 287 333 2999 3101 3215 3235 3321 3344 6264 6303 6367 6400 9242 9265 9287 9333 9343 11224 11272 11315 11326 11349 
 	}
-	manpower = 1853464
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

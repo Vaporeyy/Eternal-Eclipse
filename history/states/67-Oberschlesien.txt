@@ -1,35 +1,30 @@
 
-state = {
-	id = 67
-	name = "STATE_67"
-	resources = {
-		steel = 60.000
-		aluminium = 20.000
+state={
+	id=67
+	name="STATE_67"
+	manpower = 1402591
+	resources={
+		steel=19 # was: 60
+		aluminium=6 # was: 20
 	}
+	
+	state_category = city
 
-	history = {
-		owner = POL
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = decent
-		add_core_of = POL
+	history={
 		victory_points = {
-			6464 5 
+			11467 5
 		}
+		victory_points = {
+			9511 3
+		}
+		owner = GER
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-
+			infrastructure = 6
 		}
-
+		add_core_of = GER
 	}
 
-	provinces = {
-		506 6464 9412 11467 
+	provinces={
+		479 6512 9457 9511 11467 
 	}
-	manpower = 297197
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

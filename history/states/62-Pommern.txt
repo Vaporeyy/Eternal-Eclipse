@@ -1,46 +1,31 @@
 
-state = {
-	id = 62
-	name = "STATE_62"
-	resources = {
-		steel = 26.000
-		oil = 55
-	}
+state={
+	id=62
+	name="STATE_62"
+	manpower = 1006221
+	
+	
+	state_category = town
 
-	history = {
-		owner = DDR
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = small
-		set_state_flag = decent
-		1990.10.3 = {
-			owner = WGR
-
-		}
+	history={
 		victory_points = {
-			3522 8 
+			9388 1
 		}
-		victory_points = {
-			6582 5 
-		}
+		owner = GER
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-			fossil_fuel_powerplant = 1
-			air_base = 3
-
+			infrastructure = 6
+			fuel_silo = 1
 		}
-		add_core_of = DDR
-		add_core_of = WGR
+		add_core_of = GER
 
+		1939.1.1 = {
+			buildings = {
+				air_base = 8
+			}
+		}
 	}
 
-	provinces = {
-		3522 6487 6582 9456 9560 11359 11468 
+	provinces={
+		349 3207 3258 3312 3340 9388 
 	}
-	manpower = 2245470
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
 }

@@ -1,38 +1,36 @@
 
-state = {
-	id = 291
-	name = "STATE_291"
-	resources = {
-		oil = 22.000
+state={
+	id=291
+	name="STATE_291"
+	manpower = 2044165
+	
+	state_category = town
+	
+	resources={
+		oil=15 # was: 22
 	}
 
-	history = {
+	history={
 		owner = IRQ
-		set_state_flag = desert
-		set_state_flag = riverlarge
-		set_state_flag = micro
-		set_state_flag = semideveloped
 		victory_points = {
-			2097 20 
+			2097 5
+		}
+		victory_points = {
+			2089 1 
 		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 2
-
-			arms_factory = 2
-			industrial_complex = 3
+			infrastructure = 5
+			arms_factory = 1
+			industrial_complex = 2 
 			air_base = 4
-			fossil_fuel_powerplant = 2
-
+			2089 = {
+				naval_base = 1
+			}
 		}
 		add_core_of = IRQ
-
 	}
 
-	provinces = {
-		2097 13633 
+	provinces={
+		78 2004 2089 2097 3795 7977 7994 8001 10876 12046 12726 12839 12855 
 	}
-	manpower = 1244165
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

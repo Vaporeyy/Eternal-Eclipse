@@ -1,46 +1,31 @@
 
-state = {
-	id = 309
-	name = "STATE_309"
-	resources = {
-		aluminium = 12.000
-	}
+state={
+	id=309
+	name="STATE_309"
+	manpower = 152000
 
-	history = {
+	resources={
+		aluminium=60 # was: 104
+	}	
+	
+	state_category = rural
+
+	history={
+		add_core_of = SUR
 		owner = HOL
-		set_state_flag = tropical
-		set_state_flag = river
-		set_state_flag = large
-		set_state_flag = poor
 		victory_points = {
-			12828 5 
+			10906 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 3
 			industrial_complex = 1
-			fossil_fuel_powerplant = 1
 			12828 = {
-				naval_base = 2
-
+				naval_base = 1
 			}
-
 		}
-		add_core_of = HOL
-		add_core_of = SUR
-		1975.1.1 = {
-			owner = SUR
-			remove_core_of = HOL
-
-		}
-
 	}
 
-	provinces = {
+	provinces={
 		1928 10906 12828 
 	}
-	manpower = 214999
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

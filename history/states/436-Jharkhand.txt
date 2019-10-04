@@ -1,34 +1,24 @@
 
-state = {
-	id = 436
-	name = "STATE_436"
-	resources = {
-		aluminium = 14.000
-		steel = 9.000
+state={
+	id=436
+	name="STATE_436" # Jabalpur
+	manpower = 14123100
+	
+	state_category = rural
+	
+	resources={
+		chromium=4 # was: 6
 	}
 
-	history = {
+	history={
 		owner = RAJ
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = nominal
-		set_state_flag = verypoor
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-			arms_factory = 1
-			fossil_fuel_powerplant = 2
-
+			infrastructure = 4
 		}
 
 	}
 
-	provinces = {
-		1510 4557 7497 7574 8120 10171 10401 12375 12420 12480 12490 
+	provinces={
+		1510 4557 4883 4950 4953 7430 7497 7574 7619 8120 10030 10401 10801 10872 12375 12420 12480 12781 12799 12854 
 	}
-	manpower = 14123100
-	buildings_max_level_factor = 1.000
-	state_category = pop10dev1
 }

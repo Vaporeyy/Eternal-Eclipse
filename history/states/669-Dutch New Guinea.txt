@@ -1,44 +1,24 @@
+state={
+	id=669
+	name="STATE_669"
+	manpower = 314300
 
-state = {
-	id = 669
-	name = "STATE_669"
-	resources = {
-		oil = 4.000
-	}
+	state_category = pastoral
 
-	history = {
+	history= {
 		owner = INS
-		set_state_flag = tropical
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = undeveloped
-		add_core_of = INO
 		add_core_of = INS
-		add_core_of = WPA
+		victory_points = {
+			12371 1 
+		}
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 2
-
-
+			12371 = {
+				naval_base = 2
+			}
 		}
-		1950.1.1 = {
-			owner = HOL
-			add_core_of = HOL
-			remove_core_of = INS
-
-		}
-		1962.1.1 = {
-			owner = INO
-			remove_core_of = HOL
-
-		}
-
 	}
-
-	provinces = {
-		4468 4524 7487 7512 7585 12315 12386 
+	provinces={
+		1546 1602 1617 1629 4468 4509 4524 4552 4593 7269 7487 7512 7529 7542 7570 7585 7627 8235 8250 10369 10396 10436 10505 10990 12315 12371 12386 12457 
 	}
-	manpower = 163324
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

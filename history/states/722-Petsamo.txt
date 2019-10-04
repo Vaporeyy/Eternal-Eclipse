@@ -1,36 +1,22 @@
+state={
+	id=722
+	name="STATE_722"
+	manpower = 2371
 
-state = {
-	id = 722
-	name = "STATE_722"
+	state_category = enclave
 
-	history = {
-		owner = NOR
-		set_state_flag = cold
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = semideveloped
-		victory_points = {
-			9116 3 
-		}
+	history={
+		owner = FIN
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			9116 = {
-				naval_base = 3
-
+			infrastructure = 3
+			9140 = {
+				naval_base = 1
 			}
-
 		}
-		add_core_of = NOR
-		add_core_of = SMI
-
+		add_core_of = FIN
 	}
-
-	provinces = {
-		22 64 76 128 2995 3016 3040 3082 6015 6079 6092 6107 9042 9064 9089 9116 9128 9191 11034 11063 11077 11104 11169 
+	
+	provinces={
+		6012 6183 9140 11142 
 	}
-	manpower = 76149
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

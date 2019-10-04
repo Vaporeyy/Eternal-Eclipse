@@ -1,39 +1,27 @@
+state={
+	id=548
+	name="STATE_548"
 
-state = {
-	id = 548
-	name = "STATE_548"
-	resources = {
-		rubber = 6.000
-		steel = 8.000
-		tungsten = 2.000
+	state_category = rural
+	resources={
+		rubber=3 # was: 4
 	}
-
-	history = {
-		owner = UGA
-		set_state_flag = temperate
-		set_state_flag = freshwatersea
-		set_state_flag = nominal
-		set_state_flag = verypoor
-		add_core_of = UGA
-		victory_points = {
-			12989 5 
-		}
+	history={
+		owner = EAF
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 2
-			arms_factory = 1
-			fossil_fuel_powerplant = 1
+			infrastructure = 3
 
 		}
-
+		add_core_of = UGA
+		add_core_of = EAF
+		victory_points = {
+			12989 1
+		}
 	}
 
-	provinces = {
-		3854 12929 12989 
+	provinces={
+		3854 7088 7133 8223 12929 12989 13177 
 	}
-	manpower = 5158192
-	buildings_max_level_factor = 1.000
-	state_category = pop5
+	manpower=3515625
+	buildings_max_level_factor=1.000
 }

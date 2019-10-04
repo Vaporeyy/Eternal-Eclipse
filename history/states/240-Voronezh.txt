@@ -1,28 +1,28 @@
 
-state = {
-	id = 240
-	name = "STATE_240" # Belgorod
+state={
+	id=240
+	name="STATE_240" # Belgorod
 	manpower = 1364537
 	
-	state_category = pop1dev2
+	state_category = town
 
-	history = {
+	history={
+		victory_points = {
+			9449 1
+		}
 		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-						industrial_complex = 1
-						fossil_fuel_powerplant = 1
+			infrastructure = 5
 		}
 		add_core_of = SOV
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 1
+			}
+		}
 	}
 
-	provinces = {
+	provinces={
 		473 534 3492 6432 6481 6517 6577 9424 9449 9489 9518 11439 11500 
 	}
 }

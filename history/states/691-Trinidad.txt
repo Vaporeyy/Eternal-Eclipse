@@ -1,43 +1,27 @@
-state = {
-	id = 691
-	name = "STATE_691"
-	resources = {
-		oil = 16
+state={
+	id=691
+	name="STATE_691"
+	manpower = 413119
+	resources={
+		oil=12 # was: 16
 	}
+	
+	state_category = rural
 
-	history = {
-		owner = ENG
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = poor
+
+	history={
 		add_core_of = TRI
-		add_core_of = BAD
-		1958.1.1 = {
-			owner = BAD
-		}
-		1962.1.1 = {
-			owner = TRI
-			remove_core_of = BAD
-		}
+		owner = TRI
 		victory_points = {
-			3284 5 
+			3284 1
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-						fossil_fuel_powerplant = 1
-			3284 = { naval_base = 2 }
-
+			infrastructure = 3
+			3284 = {
+				naval_base = 1
+			}
 		}
 	}
-
-	provinces = {
-		3284 
-	}
-	manpower = 645627
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	
+	provinces={ 3284 13012 }
 }

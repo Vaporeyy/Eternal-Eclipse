@@ -1,33 +1,25 @@
 
-state = {
-	id = 549
-	name = "STATE_549"
-	resources = {
-		oil = 9.000
-		chromium = 6.000
-	}
-
-	history = {
+state={
+	id=549
+	name="STATE_549"
+	manpower = 3694293
+	
+	state_category = rural
+	
+	
+	history={
+		victory_points = {
+			2096 1
+		}
 		owner = SUD
-		set_state_flag = desertlush
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = verypoor
 		add_core_of = SUD
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-
+			infrastructure = 3
 		}
 
 	}
 
-	provinces = {
-		2016 4961 7925 8084 10795 10827 10851 13500 13504 13506 13509 13513 
+	provinces={
+		1914 1953 1960 2016 2096 4033 4918 5060 7996 8052 8084 10739 10764 10795 10827 10851 10857 10859 10877 10908 12744 12800 12887 
 	}
-	manpower = 4694293
-	buildings_max_level_factor = 1.000
-	state_category = pop4
 }

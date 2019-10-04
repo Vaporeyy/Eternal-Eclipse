@@ -1,54 +1,31 @@
 
-state = {
-	id = 213
-	name = "STATE_213"
-	resources = {
-		steel = 13.000
-		aluminium = 18.000
+state={
+	id=213
+	name="STATE_213"
+	manpower = 275751
+	state_category = rural
+	resources={
+		steel=14 # was: 28
+		chromium=12 # was: 24
 	}
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = cold
-		set_state_flag = river
-		set_state_flag = large
-		set_state_flag = undeveloped
 		victory_points = {
-			3134 15 
-		}
-		victory_points = {
-			11117 5 
-		}
-		victory_points = {
-			11183 5 
+			3134 5 
 		}
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
-
-			industrial_complex = 1
-			fossil_fuel_powerplant = 1
-			dockyard = 1
 			air_base = 2
 			3134 = {
 				naval_base = 4
-
+				coastal_bunker = 1
 			}
-			9140 = {
-				naval_base = 1
-
-			}
-
 		}
 		add_core_of = SOV
-		add_core_of = SMI
-
 	}
 
-	provinces = {
-		74 116 142 178 3012 3121 3134 6012 6157 6181 6183 9039 9115 9140 9165 9203 11031 11085 11117 11142 11183 
+	provinces={
+		15 74 98 116 142 178 3012 3121 3134 3170 6117 6140 6157 6181 6194 9039 9059 9115 9123 9162 9165 9179 9201 9203 9215 9217 11031 11088 11117 11128 11140 11183 11196 
 	}
-	manpower = 795409
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

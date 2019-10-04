@@ -1,46 +1,35 @@
-
-state = {
-	id = 312
-	name = "STATE_312"
-	resources = {
-		chromium = 1.000
+state=
+{
+	id=312
+	name="STATE_312"
+	manpower=859761
+	resources={
+		chromium=1 # was: 1
 	}
-
-	history = {
+	
+	state_category = town
+	history=
+	{
 		owner = HON
-		set_state_flag = tropical
-		set_state_flag = river
-		set_state_flag = medium
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 4
 			arms_factory = 1
-			industrial_complex = 2
-			fossil_fuel_powerplant = 1
+			industrial_complex = 2 
 			air_base = 1
 			12865 = {
 				naval_base = 1
-
 			}
 			8017 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = HON
 		victory_points = {
-			12865 5 
+			12865 3 
 		}
 
 	}
-
-	provinces = {
-		2031 8015 8017 12865 
+	provinces={
+		2031 8017 12865
 	}
-	manpower = 1487234
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

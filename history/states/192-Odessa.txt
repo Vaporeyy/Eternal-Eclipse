@@ -1,49 +1,35 @@
 
-state = {
-	id = 192
-	name = "STATE_192"
-	resources = {
-		steel = 18.000
-	}
+state={
+	id=192
+	name="STATE_192"
+	manpower = 1469986
+	
+	state_category = city
 
-	history = {
-		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = nominal
-		set_state_flag = undeveloped
+	history={
+		owner = UKR
 		victory_points = {
 			11670 10 
 		}
-		victory_points = {
-			3704 1
-		}
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
-			industrial_complex = 2
-			air_base = 4
-			11670 = {
-				naval_base = 4
-
+			infrastructure = 5
+			industrial_complex = 1
+			air_base = 6
+			11670 ={
+				naval_base = 3
+				coastal_bunker = 1
 			}
-
 		}
-		add_core_of = SOV
+		
 		add_core_of = UKR
-		1985.1.1 = {
-			owner = UKR
-			remove_core_of = SOV
-
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 2
+			}
 		}
-
 	}
 
-	provinces = {
-		741 754 3575 3701 3704 3738 3757 6727 9576 9698 9714 11670 11703 
+	provinces={
+		741 754 3575 3738 3757 9698 9714 11670 11703 
 	}
-	manpower = 1469986
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

@@ -1,42 +1,23 @@
+state={
+	id=515
+	name="STATE_515"
+	
+	state_category = pastoral
+	impassable = yes
 
-state = {
-	id = 515
-	name = "STATE_515"
-
-	history = {
-		owner = RCG
-		set_state_flag = tropical
-		set_state_flag = river
-		set_state_flag = medium
-		set_state_flag = abjectpoor
-		add_core_of = CAR
-		add_core_of = RCG
-		victory_points = {
-			12830 5 
-		}
-		victory_points = {
-			11012 2 
-		}
+	history={
+		owner = NGR
+		add_core_of = NGR
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 1
-
-			fossil_fuel_powerplant = 1
-			industrial_complex = 1
-
-		}
-		1958.1.1 = {
-			owner = CAR
-			remove_core_of = RCG
 
 		}
 
 	}
 
-	provinces = {
-		8078 11012 12830 13449 13451 13459 13460 13468 13476 
+	provinces={
+		1956 4913 7939 8028 8128 10758 10780 10805 10917
 	}
-	manpower = 1082744
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
+	manpower=1456356
+	buildings_max_level_factor=1.000
 }

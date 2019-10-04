@@ -1,36 +1,24 @@
-
-state = {
-	id = 638
-	name = "STATE_638"
-
-	history = {
+state=
+{
+	id=638
+	name="STATE_638"
+	state_category = small_island
+	manpower=75153
+	history=
+	{
 		owner = USA
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = semideveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			radar_station = 1
-			air_base = 6
+			infrastructure = 5
 			12140 = {
-				naval_base = 7
-
+				naval_base = 1
 			}
-
 		}
 		victory_points = {
-			12140 2 
-		}
+			12140 1
+		 }
 
 	}
-
-	provinces = {
-		12140 
+	provinces={
+		12140
 	}
-	manpower = 59650
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

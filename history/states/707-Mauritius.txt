@@ -1,34 +1,21 @@
+state={
+	id=707
+	name="STATE_707"
+	manpower = 404458
+	
+	state_category = small_island
 
-state = {
-	id = 707
-	name = "STATE_707"
-
-	history = {
+	history={
 		owner = ENG
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = undeveloped
-		victory_points = {
-			13018 5 
-		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 3
 			13018 = {
 				naval_base = 1
-
 			}
-
 		}
-
 	}
-
-	provinces = {
+	
+	provinces={
 		13018 
 	}
-	manpower = 12345
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

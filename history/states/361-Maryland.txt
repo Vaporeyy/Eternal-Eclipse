@@ -1,34 +1,24 @@
 
-state = {
-	id = 361
-	name = "STATE_361"
-	resources = {
-		steel = 14
-	}
-	history = {
+state={
+	id=361
+	name="STATE_361"
+	manpower = 2118394
+	
+	state_category = city
+
+	history={
 		owner = USA
-		set_state_flag = temperate
-		set_state_flag = freshwatersea
-		set_state_flag = small
-		set_state_flag = developed
+		victory_points = {
+			3957 40 
+		}
 		victory_points = {
 			6984 5 
 		}
-		victory_points = {
-			3957 1
-		}
-		victory_points = {
-			6929 1
-		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
-			industrial_complex = 4
-			dockyard = 4
+			infrastructure = 7
+			industrial_complex = 5
+			dockyard = 1
 			air_base = 6
-			radar_station = 1
-						fossil_fuel_powerplant = 2
 			6984 = {
 				naval_base = 2
 
@@ -37,16 +27,12 @@ state = {
 				naval_base = 1
 
 			}
-
 		}
 		add_core_of = USA
 
 	}
 
-	provinces = {
-		3957 6823 6892 6929 6984 9758 11892 
+	provinces={
+		3957 6823 6892 6929 6984 9758 9786 11892 
 	}
-	manpower = 2118394
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
 }

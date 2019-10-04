@@ -1,47 +1,25 @@
+state={
+	id=718
+	name="STATE_718"
+	
+	state_category = pastoral
 
-state = {
-	id = 718
-	name = "STATE_718"
+	resources={
+		rubber=5 # was: 6.000
+	}
 
-	history = {
-		owner = DOC
-		set_state_flag = temperate
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = poor
-		add_core_of = DOC
-		add_core_of = COG
-		victory_points = {
-			4941 2
-		}
-		1965.1.1 = {
-			remove_core_of = COG
-
-		}
-		1998.1.1 = {
-			owner = COG
-			add_core_of = COG
-
-		}
-		2003.1.1 = {
-			owner = DOC
-			remove_core_of = COG
-
-		}
+	history={
+		owner = COG
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
-
-			industrial_complex = 1
+			infrastructure = 2
 
 		}
-
+		add_core_of = COG
 	}
 
-	provinces = {
-		4941 11611 
+	provinces={
+		1181 1950 2034 2073 2154 4201 4941 6027 7161 10766 11934 12783 12808 12847 13176 
 	}
-	manpower = 3229078
-	buildings_max_level_factor = 1.000
-	state_category = pop3dev1
+	manpower=2366783
+	buildings_max_level_factor=1.000
 }

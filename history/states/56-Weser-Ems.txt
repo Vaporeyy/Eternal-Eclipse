@@ -1,57 +1,43 @@
+state={
+	id=56
+	name="STATE_56"
+	manpower = 2058467
+	
+	state_category = city
 
-state = {
-	id = 56
-	name = "STATE_56"
-	resources = {
-		aluminium = 3.000
-		steel = 13.000
-		oil = 6.000
-	}
-
-	history = {
-		owner = WGR
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = developed
+	history={
+		owner = GER
 		victory_points = {
 			241 5 
 		}
 		victory_points = {
-			11402 4
+			11360 1
 		}
 		victory_points = {
-			336 3
-		}
-		victory_points = {
-			309 2
-		}
-		victory_points = {
-			6377 10 
+			11388 5
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 6
 			industrial_complex = 2
-			dockyard = 1
-			air_base = 2
-			fossil_fuel_powerplant = 2
+			dockyard = 2
+			fuel_silo = 1
 			241 = {
-				naval_base = 4
+				naval_base = 8
 
 			}
+			air_base = 3
 
 		}
-		add_core_of = WGR
-		add_core_of = DDR
-
+		add_core_of = GER
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				dockyard = 3
+			}
+		}
 	}
 
-	provinces = {
-		241 247 309 336 374 526 3234 3271 3326 3395 6218 6263 6298 6325 6349 6377 6513 9238 9264 9281 9375 11233 11264 11360 11388 11402 11493 
+	provinces={
+		241 247 309 336 3234 9281 11233 11264 11360 11388 
 	}
-	manpower = 7945685
-	buildings_max_level_factor = 1.000
-	state_category = pop7dev3
 }

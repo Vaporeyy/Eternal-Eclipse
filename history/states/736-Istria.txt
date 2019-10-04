@@ -1,41 +1,31 @@
+state={
+	id=736
+	name="STATE_736"
+	
+	state_category = city
 
-state = {
-	id = 736
-	name = "STATE_736"
-
-	history = {
-		owner = YUG
-		victory_points = { 
-			11735 1
+	history={
+		victory_points = {
+			6626 1 
 		}
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = decent
-		1991.1.1 = {
-			owner = CRO
-
-		}
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = YUG
+		add_core_of = SLV
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
-
-			dockyard = 1
-			11735 = {
-				naval_base = 1
+			6626 = {
+				naval_base = 5
 
 			}
 
 		}
-		add_core_of = YUG
-		add_core_of = CRO
 
 	}
 
-	provinces = {
-		11735 
+	provinces={
+		599 6626 11595 11735 
 	}
-	manpower = 208055
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
+	manpower=1063159
+	buildings_max_level_factor=1.000
 }

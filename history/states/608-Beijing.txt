@@ -1,46 +1,33 @@
 
-state = {
-	id = 608
-	name = "STATE_608"
-	resources = {
-		steel = 26.000
-	}
+state={
+	id=608
+	name="STATE_608"
+	manpower = 9648400
+	
+	state_category = large_city
 
-	history = {
-		owner = CHI
-		set_state_flag = temperate
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = undeveloped
-		add_core_of = CHI
+	history={
+		owner = PRC
 		add_core_of = PRC
-		1949.1.1 = {
-			owner = PRC
-
-		}
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
-
-			industrial_complex = 4
-			arms_factory = 3
-			air_base = 5
-			fossil_fuel_powerplant = 3
-
+			infrastructure = 5
+			industrial_complex = 2
+			air_base = 3
+			10068 = {
+				naval_base = 2
+			}
 		}
 		victory_points = {
-			9843 30 
+			9843 20
 		}
 		victory_points = {
-			11761 1 
+			10068 1 
 		}
 
+		
 	}
 
-	provinces = {
-		9843 11761 
+	provinces={
+		1134 4137 4140 6828 9843 9969 10068 11761 12026 
 	}
-	manpower = 6648400
-	buildings_max_level_factor = 1.500
-	state_category = pop5dev2
 }

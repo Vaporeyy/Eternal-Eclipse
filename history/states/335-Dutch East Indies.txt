@@ -1,46 +1,41 @@
 
-state = {
-	id = 335
-	name = "STATE_335"
-	resources = {
-		rubber = 76.000
+state={
+	id=335
+	name="STATE_335" # Java
+	manpower = 41718200
+	
+	state_category = city
+	
+	resources={
+		rubber=140 # was: 242
+		oil=10 # was: 16
 	}
 
-	history = {
+	history={
 		owner = INS
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = semideveloped
 		add_core_of = INS
-		add_core_of = DAR
-		add_core_of = INO
-		1949.1.1 = {
-			owner = DAR
-			
+		victory_points = {
+			7381 5
 		}
-		1950.1.1 = {
-			remove_core_of = INS
+		victory_points = {
+			4608 3 
+		}
 
-		}
-		1963.1.1 = {
-			owner = INO
-			remove_core_of = DAR
-
-		}
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 1
-
-
+			infrastructure = 5
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 3
+			7381 = {
+				naval_base = 6
+			}
+			4608 = {
+				naval_base = 3
+			}
 		}
-
 	}
 
-	provinces = {
-		1413 4390 7223 7642 12277 12293 
+	provinces={
+		1209 1386 1398 1413 1425 4306 4390 4406 4434 4608 4621 7223 7381 7421 7642 7654 10135 10279 10307 10479 10491 12249 12277 12293 12472 
 	}
-	manpower = 18595565
-	buildings_max_level_factor = 1.000
-	state_category = pop10dev1
 }

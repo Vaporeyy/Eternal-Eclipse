@@ -1,0 +1,43 @@
+﻿capital = 554
+
+#oob = "KOR_1936"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	mass_assault = 1
+}
+
+set_convoys = 8
+
+set_politics = {
+	ruling_party = Populist_Nationalism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	Vanguard_Communism = 3
+	Post_Leftism = 10
+	Social_Democracy = 9
+	Liberalism = 0
+	Centrism = 0
+	Conservatism = 5
+	Reactionary_Autocracy = 19
+	Populist_Nationalism = 24
+	Neofascism = 30
+}
+
+
+
+create_country_leader = {
+	name = "Bashar Al Assad"
+	desc = ""
+	picture = "portrait_SYR_Bashar_Al_Assad.dds"
+	expire = "1965.1.1"
+	ideology = Populist_Nationalism_subtype
+	traits = {
+		#
+	}
+}
+

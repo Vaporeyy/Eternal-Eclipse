@@ -1,31 +1,27 @@
 
-state = {
-	id = 279
-	name = "STATE_279" # Santiago
-	manpower = 2358362
+state={
+	id=279
+	name="STATE_279" # Santiago
+	manpower = 3935146
 	
-	state_category = pop1dev2
+	state_category = large_city
 	
-	resources = {
-		steel = 27
+	resources={
+		steel=16 # was: 24
 	}
 
-	history = {
+	history={
 		owner = CHL
-		set_state_flag = mountains
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = decent
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
+			infrastructure = 5
 			arms_factory = 1
-			industrial_complex = 2
-			air_base = 4
-						fossil_fuel_powerplant = 2
+			industrial_complex = 7
+			air_base = 3
 			8222 = {
-				naval_base = 4
+				naval_base = 5
+			}
+			5121 = {
+				naval_base = 1
 			}
 			650 = {
 				bunker = 1
@@ -33,12 +29,12 @@ state = {
 		}
 		add_core_of = CHL
 		victory_points = {
-			650 25
+			650 10
 		}
 
 	}
 
-	provinces = {
-		650 8222 
+	provinces={
+		650 5121 5169 5191 8194 8222 8229 8251 12920 12954 12984 
 	}
 }

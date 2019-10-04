@@ -1,43 +1,41 @@
 
-state = {
-	id = 186
-	name = "STATE_186"
+state={
+	id=186
+	name="STATE_186"
+	manpower=945000
+	
+	state_category = town
 
-	history = {
+	history={
+		victory_points = {
+			7211 5
+		}
+		victory_points = {
+			7096 1
+		}
+		victory_points = {
+			11965 1
+		}
 		owner = GRE
-		set_state_flag = tropical
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = undeveloped
-		victory_points = {
-			11965 2 
-		}
-		victory_points = {
-			7211 5 
-		}
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
+			infrastructure = 5
+			arms_factory = 1
 			industrial_complex = 1
 			11965 = {
 				naval_base = 1
 
 			}
 			7211 = {
-				naval_base = 3
+				naval_base = 2
 
 			}
 
 		}
 		add_core_of = GRE
-		add_core_of = PDG
 
 	}
 
-	provinces = {
-		4078 4178 7096 7211 11965 
+	provinces={
+		1173 4078 4178 4193 7096 7211 11965 
 	}
-	manpower = 708877
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

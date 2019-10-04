@@ -1,39 +1,34 @@
 
-state = {
-	id = 277
-	name = "STATE_277"
-	resources = {
-		oil = 12.000
-		steel = 136.000
+state={
+	id=277
+	name="STATE_277"
+	manpower = 3424403
+	
+	state_category = city
+
+	resources={
+		steel=6 #was 2 before Mexican steel production was centralized to allow oil concessions
 	}
-
-	history = {
+	
+	history={
 		owner = MEX
-		set_state_flag = mountains
-		set_state_flag = lakes
-		set_state_flag = micro
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 2
-
+			infrastructure = 5
 			arms_factory = 2
 			industrial_complex = 4
 			air_base = 3
-			fossil_fuel_powerplant = 3
-
 		}
 		add_core_of = MEX
 		victory_points = {
-			1965 10 
+			1965 25
 		}
-
+		victory_points = {
+			2008 10
+		}
 	}
 
-	provinces = {
-		1965 
+	provinces={
+		1965 2008 2011 7913 12755 
 	}
-	manpower = 3424403
-	buildings_max_level_factor = 1.000
-	state_category = pop3dev3
+	
 }

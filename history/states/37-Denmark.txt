@@ -1,49 +1,39 @@
+state= {
+	id=37
+	name="STATE_37"
+	manpower = 2034114
 
-state = {
-	id = 37
-	name = "STATE_37"
-	
-	resources = {
-		steel = 33
-	}
+	state_category = large_city
 
-	history = {
+	history=
+	{
 		owner = DEN
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = wealthy
-		victory_points = {
+		victory_points = { 
 			6287 20 
 		}
 		victory_points = {
-			6361 1 
+			3325 5
 		}
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
-
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 4
-			air_base = 3
+			dockyard = 2
+			air_base = 6
 			6287 = {
 				naval_base = 8
-
+			}
+			3325 = {
+				naval_base = 3
 			}
 			6361 = {
 				naval_base = 1
-
 			}
-
 		}
 		add_core_of = DEN
-
 	}
 
-	provinces = {
-		6287 6361 
+	provinces= {
+		3260 3305 3325 3374 6287 6361 6393 
 	}
-	manpower = 1822659
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev3
 }

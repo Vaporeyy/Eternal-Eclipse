@@ -1,39 +1,27 @@
 
-state = {
-	id = 153
-	name = "STATE_153"
+state={
+	id=153
+	name="STATE_153"
+	manpower = 1655340
+	
+	state_category = town
 
-	history = {
-		owner = FRA
-		set_state_flag = mountains
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = semideveloped
+	history={
+		owner = AUS
 		victory_points = {
 			673 5 
 		}
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 5
 			industrial_complex = 1
-			fossil_fuel_powerplant = 1
 			air_base = 3
-
 		}
 		add_core_of = AUS
-		add_core_of = ADR
-		1955.1.1 = {
-			owner = AUS
 
-		}
-
+		
 	}
 
-	provinces = {
-		673 6678 9633 9636 11618 11634 
+	provinces={
+		668 671 673 3675 6673 6678 6680 9633 9636 11618 11634 
 	}
-	manpower = 746153
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

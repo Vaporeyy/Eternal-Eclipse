@@ -2,52 +2,35 @@
 state={
 	id=138
 	name="STATE_138"
+	manpower = 1047701
+	
+	state_category = city
 
 	history={
 		owner = SWE
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = decent
-		victory_points = {
-			6345 2 
-		}
 		victory_points = {
 			9279 5 
 		}
 		victory_points = {
 			11215 1 
 		}
-		victory_points = {
-			3307 1 
-		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 2
-			industrial_complex = 2
-			fossil_fuel_powerplant = 1
+			infrastructure = 5
+			industrial_complex = 1
 			dockyard = 1
-			9279 = {
-				naval_base = 5
-				coastal_bunker = 1
-
-			}
 			11215 = {
 				naval_base = 5
 				coastal_bunker = 3
-
 			}
-
+			9279 = {
+				naval_base = 5
+				coastal_bunker = 1
+			}
 		}
 		add_core_of = SWE
-		add_core_of = SKN
-
 	}
 
 	provinces={
 		3307 6120 6345 6412 9279 9300 9362 11160 11215 11327 11376 
 	}
-	manpower=1362164
-	buildings_max_level_factor=1.000
-	state_category=pop1dev2
 }

@@ -1,32 +1,26 @@
 
-state = {
-	id = 660
-	name = "STATE_660"
-
-	history = {
-		owner = RCG
-		set_state_flag = desert
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = preindustrial
-		add_core_of = CHA
-		add_core_of = RCG
-		1960.1.1 = {
-			owner = CHA
-			remove_core_of = RCG
-
+state={
+	id=660
+	name="STATE_660"
+	manpower = 1136921
+	
+	state_category = pastoral
+	resources={
+		rubber=3 # was: 4
+	}
+	history={
+		owner = CAR
+		add_core_of = CAR
+		victory_points = {
+			12830 1
 		}
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 2
 		}
 
 	}
 
-	provinces = {
-		4902 5136 10893 
+	provinces={
+		1974 3165 5084 8078 11108 12719 12830 11012
 	}
-	manpower = 59479
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

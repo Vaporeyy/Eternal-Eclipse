@@ -1,29 +1,20 @@
 
-state = {
-	id = 421
-	name = "STATE_421"
+state={
+	id=421
+	name="STATE_421"
+	manpower = 780278
+	
+	state_category = rural
 
-	history = {
+	history={
 		owner = PER
-		set_state_flag = desert
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-			fossil_fuel_powerplant = 1
-
+			infrastructure = 3
 		}
 		add_core_of = PER
-		add_core_of = KUR
-
 	}
 
-	provinces = {
-		4943 5098 
+	provinces={
+		829 4943 5050 5098 9816 10774 12773 
 	}
-	manpower = 780278
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

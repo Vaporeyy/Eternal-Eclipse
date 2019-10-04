@@ -1,38 +1,29 @@
 
-state = {
-	id = 222
-	name = "STATE_222"
+state={
+	id=222
+	name="STATE_222"
 	manpower = 1218607
 	
-	state_category = pop1dev3
+	state_category = rural
 	
-	resources = {
-		steel = 4
-		chromium = 12
+	resources={
+		steel=40 # was: 76
+		chromium=8 # was: 12
 	}
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = decent
 		victory_points = {
 			9355 10
 		}
 		buildings = {
-		infrastructure = 2
-			state_infrastructure = 2
-
-		industrial_complex = 1
-		arms_factory = 1
-		fossil_fuel_powerplant = 1 
-		air_base = 4
+			infrastructure = 5
+			air_base = 4
 		}
 		add_core_of = SOV
 	}
 
-	provinces = {
+	provinces={
 		302 328 384 6355 9328 9355 9384 9411 11214 11283 11310 11337 11368 
 	}
 }

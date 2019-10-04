@@ -1,50 +1,26 @@
+state={
+	id=584
+	name="STATE_584"
 
-state = {
-	id = 584
-	name = "STATE_584"
-	resources = {
-		oil = 8.000
-	}
-
-	history = {
-		owner = SOV
-		set_state_flag = desert
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = poor
+	history={
 		add_core_of = TMS
-		add_core_of = SOV
-		1990.8.1 = {
-			owner = TMS
-			remove_core_of = SOV
-
-		}
+		owner = TMS
 		victory_points = {
-			12333 5 
-		}
-		victory_points = {
-			7924 1 
-		}
-		victory_points = {
-			10485 1 
+			12333 1
 		}
 		buildings = {
 			infrastructure = 2
-			state_infrastructure = 2
-
 			industrial_complex = 1
-			arms_factory = 1
-			air_base = 2
-			fossil_fuel_powerplant = 1
 
 		}
+		
 
 	}
 
-	provinces = {
-		1493 4599 7618 7635 8099 10485 10510 12324 12333 12491 
+	provinces={
+		756 1493 1593 1632 1649 4482 4549 4563 4599 4958 5003 7477 7491 7560 7563 7618 7635 7924 8099 9605 10357 10359 10406 10414 10485 10510 10742 12333 12359 12491 
 	}
-	manpower = 1211000
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	manpower=1064523
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

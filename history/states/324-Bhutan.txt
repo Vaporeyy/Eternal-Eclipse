@@ -1,36 +1,30 @@
 
-state = {
-	id = 324
-	name = "STATE_324"
-	resources = {
-		tungsten = 10.000
+state={
+	id=324
+	name="STATE_324"
+	manpower = 450000
+	
+	
+	state_category = town
+	
+	resources={
+		tungsten=2 # was: 2
 	}
 
-	history = {
+	history={
 		owner = BHU
-		set_state_flag = mountains
-		set_state_flag = lakes
-		set_state_flag = micro
-		set_state_flag = verypoor
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 2
-
 			arms_factory = 1
-			fossil_fuel_powerplant = 1
-
+			industrial_complex = 2 
 		}
 		victory_points = {
-			8010 5 
+			8010 3 
 		}
 		add_core_of = BHU
-
 	}
 
-	provinces = {
-		8010 13274 13277 
+	provinces={
+		8010 12860 
 	}
-	manpower = 334982
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

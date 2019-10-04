@@ -1,38 +1,35 @@
 
-state = {
-	id = 128
-	name = "STATE_128"
+state={
+	id=128
+	name="STATE_128"
 	manpower = 3685235
 	
-	state_category = pop3dev3
-	resources = {
-		steel = 20
-		oil = 30
+	state_category = metropolis
+	resources={
+		steel=27 # was: 48
 	}
 
-	history = {
+	history={
 		owner = ENG
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = small
-		set_state_flag = developed
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
-
+			infrastructure = 8
 			arms_factory = 2
 			industrial_complex = 3
 			air_base = 6
-			radar_station = 1
-			fossil_fuel_powerplant = 2
 		}
-		victory_points = { 9297 15 }
-		victory_points = { 6270 5 }
-		victory_points = { 3241 1 }
+		victory_points = {
+			9297 25
+		}
 		add_core_of = ENG
-}
+		1939.1.1 = {
+			buildings = {
+				arms_factory = 3
+				industrial_complex = 4
+			}
+		}
+	}
 
-	provinces = {
+	provinces={
 		3241 3301 6270 6301 7239 9297 11345 
 	}
 }

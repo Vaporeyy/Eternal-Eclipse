@@ -1,37 +1,37 @@
-
-state = {
-	id = 86
-	name = "STATE_86"
-
-	history = {
+state={
+	id=86
+	name="STATE_86"
+	manpower = 2106500
+	
+	
+	state_category = city
+	history={
 		owner = POL
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = nominal
-		set_state_flag = semideveloped
 		victory_points = {
-			6558 5 
-		}
-		victory_points = {
-			243 3 
+			6558 10
 		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
+			infrastructure = 6
 			industrial_complex = 1
-			air_base = 3
-			fossil_fuel_powerplant = 2
+			11232 = {
+				bunker = 1
 
+			}
+			9532 = {
+				bunker = 1
+
+			}
+			3381 = {
+				bunker = 1
+
+			}
+			air_base = 3
 		}
 		add_core_of = POL
-
+		
 	}
 
-	provinces = {
-		17 388 3381 3460 3532 6462 6558 9252 9439 9470 9532 11232 11260 11515 11558 
+	provinces={
+		17 388 3381 3460 3532 6558 9532 11232 11558
 	}
-	manpower = 2106500
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
 }

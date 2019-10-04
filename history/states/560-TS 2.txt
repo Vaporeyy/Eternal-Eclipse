@@ -1,38 +1,23 @@
 
-state = {
-	id = 560
-	name = "STATE_560"
-	resources = {
-		steel = 24.000
+state={
+	id=560
+	name="STATE_560" # Nikolayevsk
+	manpower = 97663
+	
+	state_category = rural
+	resources={
+		steel=18 # was: 24
 	}
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = mountainshot
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = undeveloped
-		add_core_of = ARM
-		add_core_of = SOV
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			fossil_fuel_powerplant = 1
-
+			infrastructure = 3
 		}
-		1985.1.1 = {
-			owner = ARM
-			remove_core_of = SOV
-
-		}
-
+		add_core_of = SOV
 	}
 
-	provinces = {
-		4660 6642 12450 
+	provinces={
+		1724 1772 1807 1842 3664 4290 4841 4844 7748 7868 7871 9659 10571 10577 10590 12559 12569 12638 
 	}
-	manpower = 141771
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

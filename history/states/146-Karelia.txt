@@ -1,32 +1,37 @@
+state={
+	id=146
+	name="STATE_146"
 
-state = {
-	id = 146
-	name = "STATE_146"
-	resources = {
-		tungsten = 17.000
-	}
+	state_category = town
 
-	history = {
-		owner = BOT
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = medium
-		set_state_flag = abjectpoor
-		add_core_of = BOT
+	history={
+		owner = FIN
+		add_core_of = FIN
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 2
+			infrastructure = 5
+			industrial_complex = 2
 
-			industrial_complex = 1
-
+			#Mannerheim Line
+			9100 = {
+				bunker = 2
+			}
+			9105 = {
+				bunker = 2
+			}
+			9206 = {
+				coastal_bunker = 1
+			}
 		}
+		victory_points = {
+			9206 3 
+		}
+		
 
 	}
 
-	provinces = {
-		1580 10525 12963 13276 13603 13604 13605 13606 
+	provinces={
+		2332 3050 3060 3133 3187 6052 6150 6153 9100 9105 9150 9176 9206 11046 11156 11162 
 	}
-	manpower = 638604
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	manpower=418635
+	buildings_max_level_factor=1.000
 }

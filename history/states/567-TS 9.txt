@@ -1,40 +1,23 @@
 
-state = {
-	id = 567
-	name = "STATE_567"
-	resources = {
-		tungsten = 67.000
-		aluminium = 42.000
+state={
+	id=567
+	name="STATE_567" # Bratsk
+	manpower = 410183
+	state_category = rural
+	
+	resources={
+		aluminium=26 # was: 34
 	}
 
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = mountains
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = undeveloped
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
-			air_base = 4
-			fossil_fuel_powerplant = 1
-
+			infrastructure = 3
 		}
-		add_core_of = GEO
 		add_core_of = SOV
-		1985.1.1 = {
-			owner = GEO
-			remove_core_of = SOV
-
-		}
-
 	}
 
-	provinces = {
-		654 672 772 3656 3658 9626 
+	provinces={
+		1735 1803 1813 1876 4750 4808 7713 7769 7802 7841 7876 7902 10549 10562 10570 10664 10699 12523 
 	}
-	manpower = 536052
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
 }

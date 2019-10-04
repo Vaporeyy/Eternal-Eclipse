@@ -1,30 +1,20 @@
 
-state = {
-	id = 507
-	name = "STATE_507" #
+state={
+	id=507
+	name="STATE_507" # Magallanes
+	manpower = 68693
+	
+	state_category = pastoral
 
-	history = {
+	history={
 		owner = CHL
-		set_state_flag = mountains
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = undeveloped
-		victory_points = { 2161 5 }
-		victory_points = { 10961 1 }
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 2
-
-
 		}
 		add_core_of = CHL
-
 	}
 
-	provinces = {
-		2161 5159 10961 
+	provinces={
+		2161 5118 5159 5201 5209 5215 8198 8218 8913 10961 
 	}
-	manpower = 38693
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

@@ -1,39 +1,27 @@
 
-state = {
-	id = 5
-	name = "STATE_5"
+state={
+	id=5
+	name="STATE_5"
+	manpower = 1238108
+	state_category = town
 
-	history = {
-		owner = POL
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = nominal
-		set_state_flag = decent
+	history={
+		victory_points = {
+			6375 3
+		}
+		#victory_points = {
+		#	11386 1
+		#}
+		owner = GER
+		controller = GER
 		
-		victory_points = {
-			9346 10 
-		}
-		victory_points = {
-			395 2 
-		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
-			industrial_complex = 2
-			air_base = 6
-			fossil_fuel_powerplant = 2
-
+			infrastructure = 6
 		}
-		add_core_of = POL
-		
-
+		add_core_of = GER
 	}
 
-	provinces = {
-		266 3351 6375 6402 9327 9346 9372 9398 11245 11386 
+	provinces={
+		266 3351 3380 6375 6402 9327 9346 9372 9398 11245 11386 
 	}
-	manpower = 3378109
-	buildings_max_level_factor = 1.000
-	state_category = pop3dev2
 }

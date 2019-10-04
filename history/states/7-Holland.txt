@@ -1,42 +1,34 @@
-
-state = {
-	id = 7
-	name = "STATE_7"
-	resources = {
-		oil = 2.000
-		steel = 17.000
+state={
+	id=7
+	name="STATE_7"
+	resources={
+		steel=4.000
 	}
 
-	history = {
+	history={
 		owner = HOL
-		set_state_flag = temperate
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = wealthy
 		add_core_of = HOL
 		victory_points = {
-			68 30 
+			391 40 
 		}
 		victory_points = {
-			3211 15 
+			3211 10 
 		}
 		victory_points = {
 			9498 20 
 		}
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
-			air_base = 4
-			industrial_complex = 4
-			arms_factory = 2
-			dockyard = 1
-			fossil_fuel_powerplant = 1
+			infrastructure = 8
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 3
+			air_base = 5
 			3314 = {
-				naval_base = 10
+				naval_base = 5
 
 			}
 			9498 = {
-				naval_base = 5
+				naval_base = 10
 
 			}
 
@@ -44,10 +36,10 @@ state = {
 
 	}
 
-	provinces = {
-		68 3211 3314 9498 
+	provinces={
+		68 391 3211 3314 9498 
 	}
-	manpower = 4123000
-	buildings_max_level_factor = 1.000
-	state_category = pop4dev3
+	manpower=4123000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
 }

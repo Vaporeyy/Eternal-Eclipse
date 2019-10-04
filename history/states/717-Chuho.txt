@@ -1,30 +1,22 @@
+state={
+	id=717
+	name="STATE_717"
+	
+	state_category = pastoral
 
-state = {
-	id = 717
-	name = "STATE_717"
-
-	history = {
-		owner = KOR
-		set_state_flag = temperate
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = decent
-		add_core_of = JAP
-		add_core_of = KOR
-		add_core_of = KPA
+	history={
+		owner = PRC
+		add_core_of = PRC
 		buildings = {
-			infrastructure = 1
-			state_infrastructure = 1
-
+			infrastructure = 3
 
 		}
 
 	}
 
-	provinces = {
-		9248 
+	provinces={
+		783 810 944 973 1571 3791 3815 3843 3944 4551 5427 6806 6811 6863 6964 7569 7670 9623 9766 9798 9897 10215 10376 10463 10503 10519 10521 11893 11906 12342 12355 12443 12482 12500 
 	}
-	manpower = 50
-	buildings_max_level_factor = 1.000
-	state_category = pop1
+	manpower=5224174
+	buildings_max_level_factor=1.000
 }

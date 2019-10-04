@@ -1,53 +1,29 @@
 
-state = {
-	id = 553
-	name = "STATE_553"
-	resources = {
-		oil = 5.000
-		steel = 3.000
-	}
+state={
+	id=553
+	name="STATE_553"
+	manpower = 1104000
+	
+	state_category = town
 
-	history = {
-		owner = FRA
-		set_state_flag = mountains
-		set_state_flag = basic
-		set_state_flag = micro
-		set_state_flag = undeveloped
-		1946.1.1 = {
-			owner = LEB
-
-		}
+	history={
+		owner = LEB
 		victory_points = {
-			792 15 
-		}
-		victory_points = {
-			1108 5 
+			792 5 
 		}
 		buildings = {
 			infrastructure = 4
-			state_infrastructure = 4
-
-			industrial_complex = 2
-			fossil_fuel_powerplant = 2
-			air_base = 4
+			industrial_complex = 1
+			air_base = 5
 			792 = {
-				naval_base = 2
-
+				naval_base = 3
 			}
-			1108 = {
-				naval_base = 1
-
-			}
-
 		}
+
 		add_core_of = LEB
-
 	}
 
-	provinces = {
-		792 1108 13262 
+	provinces={
+		792 1108 11919 
 	}
-	manpower = 2543578
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
 }

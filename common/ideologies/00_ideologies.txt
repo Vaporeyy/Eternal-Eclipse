@@ -20,7 +20,7 @@ ideologies = {
 			"FACTION_NAME_COMMUNIST_5"
 		}
 		
-		color = { 255 44 33 }
+		color = { 94 0 0 }
 		
 		war_impact_on_world_tension = 0.75		
 		faction_impact_on_world_tension = 0.5

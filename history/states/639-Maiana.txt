@@ -1,35 +1,27 @@
 
-state = {
-	id = 639
-	name = "STATE_639"
+state={
+	id=639
+	name="STATE_639"
+	manpower=1035
+	state_category = small_island
 
-	history = {
-		owner = ENG
-		set_state_flag = tropical
-		set_state_flag = basic
-		set_state_flag = small
-		set_state_flag = undeveloped
+	history={
+		owner = FIJ
+		add_core_of = FIJ
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 3
 			13021 = {
 				naval_base = 1
-
 			}
 			4387 = {
 				naval_base = 1
-
 			}
 			7393 = {
 				naval_base = 1
-
 			}
 			13020 = {
 				naval_base = 1
-
 			}
-
 		}
 		victory_points = {
 			13021 1 
@@ -37,10 +29,7 @@ state = {
 
 	}
 
-	provinces = {
+	provinces={
 		4387 7393 13020 13021 13022 
 	}
-	manpower = 110136
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

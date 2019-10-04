@@ -1,40 +1,35 @@
-
-state = {
-	id = 85
-	name = "STATE_85"
-
-	history = {
+state={
+	id=85
+	name="STATE_85"
+	manpower = 1080100
+	
+	state_category = city
+	history={
 		owner = POL
-		set_state_flag = boreal
-		set_state_flag = riverlarge
-		set_state_flag = small
-		set_state_flag = decent
 		victory_points = {
-			362 10 
+			362 10
+		}
+		victory_points = {
+			3295 5
+		}
+		victory_points = {
+			279 1
 		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
+			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 1
 			dockyard = 1
 			air_base = 3
-			fossil_fuel_powerplant = 2
 			362 = {
 				naval_base = 5
-
 			}
-
 		}
 		add_core_of = POL
-
+		
 	}
 
-	provinces = {
-		362 389 3380 9263 11288 11316 11343 
+	provinces={
+		243 279 334 362 389 3295 3324 6347 9263
 	}
-	manpower = 1080100
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev2
 }

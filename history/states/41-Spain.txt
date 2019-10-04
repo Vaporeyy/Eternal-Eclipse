@@ -1,39 +1,33 @@
 
-state = {
-	id = 41
-	name = "STATE_41"
-	resources = {
-		tungsten = 2.000
-		steel = 42.000
+state={
+	id=41
+	name="STATE_41" # Madrid
+	manpower = 2269659
+
+	state_category = city
+
+	resources={
+		aluminium=1 # was: 2
 	}
 
-	history = {
+	history={
 		owner = SPR
-		set_state_flag = temperate
-		set_state_flag = lakes
-		set_state_flag = small
-		set_state_flag = developed
 		victory_points = {
-			3938 20 
+			3938 30
+		}
+		victory_points = {
+			858 1
 		}
 		buildings = {
-			infrastructure = 3
-			state_infrastructure = 3
-
+			infrastructure = 6
 			arms_factory = 2
 			industrial_complex = 3
-			fossil_fuel_powerplant = 1
 			air_base = 6
-
 		}
 		add_core_of = SPR
-
 	}
 
-	provinces = {
-		3938 6993 9767 
+	provinces={
+		858 896 939 977 3794 3845 3858 3938 3986 6841 6914 6993 9767 9785 9933 11820 11870 
 	}
-	manpower = 2269659
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev3
 }

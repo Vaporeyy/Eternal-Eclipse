@@ -17,3 +17,4 @@ spriteTypes = {
 		name = "GFX_idea_Restricted_rights"
 		texturefile = "gfx/interface/ideas/Restricted_rights.dds"
 	}
+}	

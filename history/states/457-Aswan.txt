@@ -1,29 +1,20 @@
-
-state = {
-	id = 457
-	name = "STATE_457"
-	resources = {
-		oil = 4.000
-	}
-
+state=
+{
+	id=457
+	name="STATE_457" # Arabian Desert
+	manpower = 2194
+	
+	state_category = wasteland
+	
 	history = {
 		owner = EGY
-		set_state_flag = mountainshot
-		set_state_flag = basic
-		set_state_flag = nominal
-		set_state_flag = preindustrial
 		buildings = {
-			infrastructure = 0
-
+			infrastructure = 1
 		}
+
 		add_core_of = EGY
-
 	}
-
-	provinces = {
-		1064 4068 4910 5069 7156 9957 10126 12002 12889 13361 
+	provinces={
+		1080 4068 4910 5069 7156 9957 10126 12002 12889 
 	}
-	manpower = 4194
-	buildings_max_level_factor = 1.000
-	state_category = pop1
 }

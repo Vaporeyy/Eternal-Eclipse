@@ -1,36 +1,27 @@
 
-state = {
-	id = 323
-	name = "STATE_323"
-	resources = {
-		chromium = 6.000
+state={
+	id=323
+	name="STATE_323"
+	manpower = 5573791
+	
+	state_category = town
+	resources={
+		chromium=2 # was: 2
 	}
-
-	history = {
+	history={
 		owner = NEP
-		set_state_flag = mountains
-		set_state_flag = riverlarge
-		set_state_flag = medium
-		set_state_flag = poor
 		buildings = {
-			infrastructure = 2
-			state_infrastructure = 2
-
+			infrastructure = 3
 			arms_factory = 1
-			industrial_complex = 2
-			fossil_fuel_powerplant = 3
+			industrial_complex = 2 
 		}
 		victory_points = {
-			4987 5 
+			4987 3 
 		}
 		add_core_of = NEP
-
 	}
 
-	provinces = {
+	provinces={
 		4386 4987 5310 7374 10825 10910 12892 
 	}
-	manpower = 8483321
-	buildings_max_level_factor = 1.000
-	state_category = pop7dev1
 }

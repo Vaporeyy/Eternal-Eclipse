@@ -1,42 +1,22 @@
+state={
+	id=404
+	name="STATE_404"
 
-state = {
-	id = 404
-	name = "STATE_404"
-	resources = {
-		oil = 16.000
-		steel = 4.000
-		chromium = 55
-	}
-
-	history = {
+	history={
 		owner = SOV
-		set_state_flag = lushdesert
-		set_state_flag = basic
-		set_state_flag = large
-		set_state_flag = verypoor
-		victory_points = {
-			4389 1 
-		}
+		add_core_of = KAZ
 		buildings = {
 			infrastructure = 1
-			state_infrastructure = 2
-
-			industrial_complex = 1
 
 		}
-		add_core_of = KAZ
 		add_core_of = SOV
-		1985.1.1 = {
-			owner = KAZ
-			remove_core_of = SOV
-		}
 
 	}
 
-	provinces = {
-		1239 1243 1312 1382 1402 4250 4277 4389 4492 4595 7335 7392 7405 7407 7425 7600 7657 10179 10220 10268 10275 10277 10292 10452 10508 12111 12121 12177 12194 12329 12385 12487 
+	provinces={
+		1243 1312 1382 1402 4250 4277 4389 4492 4578 4595 4636 4686 7335 7392 7556 7597 7600 7657 7777 10148 10179 10220 10268 10275 10277 10353 10366 10452 10506 10508 10601 12111 12121 12177 12194 12329 12340 12385 12397 12487 
 	}
-	manpower = 667036
-	buildings_max_level_factor = 1.000
-	state_category = pop1dev1
+	manpower=667036
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }

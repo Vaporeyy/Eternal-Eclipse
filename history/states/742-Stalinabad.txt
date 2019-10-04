@@ -1,42 +1,25 @@
+state={
+	id=742
+	name="STATE_742"
 
-state = {
-	id = 742
-	name = "STATE_742"
-
-	history = {
-		owner = BAV
-		set_state_flag = temperate
-		set_state_flag = river
-		set_state_flag = micro
-		set_state_flag = semideveloped
-		add_core_of = BAV
-		add_core_of = DDR
-		add_core_of = WGR
-		add_core_of = FCB
-		1949.1.1 = {
-			owner = WGR
-			remove_core_of = BAV
-
-		}
+	history={
+		owner = TAJ
+		
 		victory_points = {
-			6521 25 
+			1384 1
 		}
 		buildings = {
-			infrastructure = 4
-			state_infrastructure = 4
-
-			industrial_complex = 1
-			air_base = 4
-			fossil_fuel_powerplant = 2
+			infrastructure = 1
 
 		}
+		add_core_of = TAJ
 
 	}
 
-	provinces = {
-		6521 
+	provinces={
+		1216 1384 1919 4542 7224 8027 10187 10417 12218 12250 12430 12805 
 	}
-	manpower = 2174892
-	buildings_max_level_factor = 1.000
-	state_category = pop2dev2
+	manpower=230000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
 }
