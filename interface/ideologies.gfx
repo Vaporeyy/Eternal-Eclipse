@@ -10,7 +10,7 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_ideology_Liberalism_group"
-		texturefile = "gfx/interface/ideologies/Liberalismism_group.dds"
+		texturefile = "gfx/interface/ideologies/Liberalism_group.dds"
 	}	
 	
 	spriteType = {

@@ -1,0 +1,71 @@
+ideas = {
+
+	country = {
+	
+		PRC_Technocratic_Society_idea = {
+			
+			allowed = {
+				original_tag = PRC
+			}
+
+									
+			modifier = {
+				stability_factor = 0.10
+				political_power_cost = 0.05
+				production_factory_max_efficiency_factor = 0.04
+					
+			}
+
+			picture = Technocratic_Society
+		}
+
+		PRC_Aggressive_Outlook_idea = {
+			
+			allowed = {
+				original_tag = PRC
+			}
+
+									
+			modifier = {
+				conscription_factor = 0.03
+				max_planning = -0.10
+				war_support_factor = 0.02
+				navy_max_range_factor = 0.05
+				consumer_goods_factor = -0.10
+			}
+
+			picture = Aggressive_Outlook
+		}
+		
+		PRC_Fractured_Party_idea = {
+			
+			allowed = {
+				original_tag = PRC
+			}
+
+									
+			modifier = {
+				political_power_cost = 0.10
+				encryption = -1
+			}
+
+			picture = Fractured_Party
+		}
+		
+		PRC_Neo_Maoism_idea = {
+			
+			allowed = {
+				original_tag = PRC
+			}
+
+									
+			modifier = {
+				drift_defense_factor = 0.2 
+			}
+
+			picture = Neo_Mao
+		}
+		
+		
+	}	
+}	

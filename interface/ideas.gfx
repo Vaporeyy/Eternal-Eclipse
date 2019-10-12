@@ -2,6 +2,25 @@ spriteTypes = {
 
 
 
+	spriteType = {
+		name = "GFX_idea_Fractured_Party"
+		texturefile = "gfx/interface/ideas/Fractured_Party.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Aggressive_Outlook"
+		texturefile = "gfx/interface/ideas/Aggressive_Outlook.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Neo_Mao"
+		texturefile = "gfx/interface/ideas/Neo_Mao.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Technocratic_Society"
+		texturefile = "gfx/interface/ideas/Technocratic_Society.dds"
+	}
 	
 	spriteType = {
 		name = "GFX_idea_international_aid2"
@@ -9,8 +28,8 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_idea_Corrupt_officialz"
-		texturefile = "gfx/interface/ideas/corrupt_officialz.dds"
+		name = "GFX_idea_Corrupt_Officialz"
+		texturefile = "gfx/interface/ideas/Corrupt_Officialz.dds"
 	}
 	
 	spriteType = {

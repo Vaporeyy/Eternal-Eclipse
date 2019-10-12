@@ -15,7 +15,7 @@ ideas = {
 				political_power_cost = -0.15
 			}
 
-			picture = Restricted_rights
+			picture = Corrupt_Officialz
 		}
 
 		
