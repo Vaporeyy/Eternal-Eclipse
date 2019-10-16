@@ -28,7 +28,7 @@ ideas = {
 									
 			modifier = {
 				conscription_factor = 0.03
-				max_planning = -0.10
+				max_planning = 0.10
 				war_support_factor = 0.02
 				navy_max_range_factor = 0.05
 				consumer_goods_factor = -0.10
@@ -60,7 +60,8 @@ ideas = {
 
 									
 			modifier = {
-				drift_defense_factor = 0.2 
+				drift_defence_factor = 0.5
+                                stability_factor = 0.3
 			}
 
 			picture = Neo_Mao
