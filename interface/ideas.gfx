@@ -36,4 +36,24 @@ spriteTypes = {
 		name = "GFX_idea_Restricted_rights"
 		texturefile = "gfx/interface/ideas/Restricted_rights.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Slow_Reconstruction"
+		texturefile = "gfx/interface/ideas/Slow_Reconstruction.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Excessive_Repression"
+		texturefile = "gfx/interface/ideas/Excessive_Repression.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_The_Kurdsh_Problem"
+		texturefile = "gfx/interface/ideas/The_Kurdsh_Problem.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Russian_Iranian_Rivalry"
+		texturefile = "gfx/interface/ideas/Russian_Iranian_Rivalry.dds"
+	}
 }	

@@ -27,6 +27,12 @@ set_popularities = {
 	Populist_Nationalism = 24
 	Neofascism = 30
 }
+ 
+add_ideas = {
+	SYR_Slow_Reconstruction_idea
+        SYR_Excessive_Repression_idea
+        SYR_The_Kurdish_Problem_idea
+        SYR_Russian_Iranian_Rivalry_idea
 
 
 
