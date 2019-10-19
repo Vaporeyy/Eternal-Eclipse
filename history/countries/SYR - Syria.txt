@@ -34,11 +34,11 @@ add_ideas = {
 	SYR_Excessive_Repression_idea
 	SYR_The_Kurdish_Problem_idea
 	SYR_Russian_Iranian_Rivalry_idea
-	}
+	
+}
 
 create_country_leader = {
 	name = "Bashar Al Assad"
-	desc = ""
 	picture = "portrait_SYR_Bashar_Al_Assad.dds"
 	expire = "1965.1.1"
 	ideology = Populist_Nationalism_subtype
