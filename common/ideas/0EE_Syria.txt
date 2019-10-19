@@ -15,7 +15,7 @@ ideas = {
                                 production_factory_max_efficiency_factor = -0.1
 			 }
 
-                         picture = SYR_Slow_Reconstruction
+                         picture = Slow_Reconstruction
 		}
 
                 SYR_Excessive_Repression_idea = {
@@ -29,7 +29,7 @@ ideas = {
 				stability_factor = -0.15
 			 }
 
-                         picture = SYR_Excessive_Repression
+                         picture = Excessive_Repression
 		}
 
                  SYR_The_Kurdish_Problem_idea = {
@@ -44,7 +44,7 @@ ideas = {
                                 conscription_factor = -0.02
 			 }
 
-                         picture = SYR_The_Kurdish_Problem
+                         picture = The_Kurdish_Problem
 		}
 
                  SYR_Russian_Iranian_Rivalry_idea = {
@@ -55,7 +55,7 @@ ideas = {
 
 
 			modifier = {
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.20
                                 training_time_factor = -0.05
 			 }
 
