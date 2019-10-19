@@ -1,74 +1,70 @@
 ideas = {
 
 	country = {
+	
+		SYR_Slow_reconstruction_idea = {
+			
+			allowed = {
+				original_tag = SYR
+			}
 
-	       SYR_Slow_Reconstruction_idea = {
-
-                         allowed = {
-				  original_tag = SYR
-			 }
-
-
+									
 			modifier = {
 				industrial_capacity_factory = -0.25
 				production_speed_buildings_factor = -0.5
-                                production_factory_max_efficiency_factor = -0.1
-			 }
+				production_factory_max_efficiency_factor = -0.1
+					
+			}
 
-                         picture = Slow_Reconstruction
+			picture = Slow_Reconstruction
 		}
 
-                SYR_Excessive_Repression_idea = {
+		SYR_Excessive_Repression_idea = {
+			
+			allowed = {
+				original_tag = SYR
+			}
 
-                         allowed = {
-				  original_tag = SYR
-			 }
-
-
+									
 			modifier = {
 				stability_factor = -0.15
-			 }
+			}
 
-                         picture = Excessive_Repression
+			picture = Excessive_Repression
 		}
+		
+		SYR_The_Kurdish_Problem_idea = {
+			
+			allowed = {
+				original_tag = SYR
+			}
 
-                 SYR_The_Kurdish_Problem_idea = {
-
-                         allowed = {
-				  original_tag = SYR
-			 }
-
-
+			
 			modifier = {
+				conscription_factor = -0.02
 				stability_factor = -0.05
-                                conscription_factor = -0.02
-			 }
+			}
 
-                         picture = The_Kurdish_Problem
+			picture = The_Kurdsh_Problem
 		}
+		
+		SYR_Russian_Iranian_Rivalry_idea = {
+			
+			allowed = {
+				original_tag = SYR
+			}
 
-                 SYR_Russian_Iranian_Rivalry_idea = {
-
-                         allowed = {
-				  original_tag = SYR
-			 }
-
-
+				
 			modifier = {
 				consumer_goods_factor = 0.20
-                                training_time_factor = -0.05
-			 }
-
-                                targeted_modifier = { tag = RUS trade_opinion_factor = 0.25 }
-                         
-                         }
-
-                                targeted_modifier = { tag = PER trade_opinion_factor = 0.25 }
-      
-
-                         picture = Russian_Iranian_Rivalry
+                training_time_factor = -0.05
+				targeted_modifier = { tag = RUS trade_opinion_factor = 0.25 }
+                targeted_modifier = { tag = PER trade_opinion_factor = 0.25 }
+			}
+			picture = Russian_Iranian_Rivalry
 		}
-                  
 
-
-		   
+		
+	}
+	
+}	

@@ -18,23 +18,23 @@ set_politics = {
 }
 set_popularities = {
 	Vanguard_Communism = 3
-	Post_Leftism = 10
-	Social_Democracy = 9
-	Liberalism = 0
+	Post_Leftism = 18
+	Social_Democracy = 16
+	Liberalism = 4
 	Centrism = 0
 	Conservatism = 5
 	Reactionary_Autocracy = 19
-	Populist_Nationalism = 24
-	Neofascism = 30
+	Populist_Nationalism = 25
+	Neofascism = 10
 }
  
+
 add_ideas = {
 	SYR_Slow_Reconstruction_idea
-        SYR_Excessive_Repression_idea
-        SYR_The_Kurdish_Problem_idea
-        SYR_Russian_Iranian_Rivalry_idea
-
-
+	SYR_Excessive_Repression_idea
+	SYR_The_Kurdish_Problem_idea
+	SYR_Russian_Iranian_Rivalry_idea
+	}
 
 create_country_leader = {
 	name = "Bashar Al Assad"
