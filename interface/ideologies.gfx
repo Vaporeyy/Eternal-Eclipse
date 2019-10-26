@@ -24,8 +24,8 @@ spriteTypes = {
 	}	
 	
 	spriteType = {
-		name = "GFX_ideology_Post_Leftism_group"
-		texturefile = "gfx/interface/ideologies/Post_Leftism_group.dds"
+		name = "GFX_ideology_Radical_Socialism_group"
+		texturefile = "gfx/interface/ideologies/Radical_Socialism_group.dds"
 	}
 	
 	spriteType = {

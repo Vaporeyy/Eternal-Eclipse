@@ -36,20 +36,17 @@ ideologies = {
 	}
 
 
-	Post_Leftism = {
+	Radical_Socialism = {
 		
 		types = {
 		
-			Radical_Democracy = {
+			Post_Leftism = {
 			}
-			
-			Post_anarchism = {  #includes individualist anarchism of the likes of Stirner
-			}
-			
-			Post_Marxism = {    #authoritarian
+						
+			Democratic_Socialism = {    
 			}
 
-			Automated_Communism = {  #basically demsoc
+			Automated_Communism = {  
 			}
 			
 					

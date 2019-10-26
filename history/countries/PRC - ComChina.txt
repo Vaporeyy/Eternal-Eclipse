@@ -24,7 +24,7 @@ set_politics = {
 }
 set_popularities = {
 	Vanguard_Communism = 75
-	Post_Leftism = 5
+	Radical_Socialism = 5
 	Social_Democracy = 0
 	Liberalism = 0
 	Centrism = 0

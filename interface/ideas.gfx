@@ -56,4 +56,54 @@ spriteTypes = {
 		name = "GFX_idea_Russian_Iranian_Rivalry"
 		texturefile = "gfx/interface/ideas/Russian_Iranian_Rivalry.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_Declining_Society"
+		texturefile = "gfx/interface/ideas/Declining_Society.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Article_9_Appealed"
+		texturefile = "gfx/interface/ideas/Article_9_Appealed.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_The_6th_Republic"
+		texturefile = "gfx/interface/ideas/The_6th_Republic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_New_Ecological_Economy"
+		texturefile = "gfx/interface/ideas/New_Ecological_Economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Maritime_Ambitions"
+		texturefile = "gfx/interface/ideas/Maritime_Ambitions.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_South_Sudan_Coflict"
+		texturefile = "gfx/interface/ideas/South_Sudan_Conflict.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Kenyan_Economic_Dominance"
+		texturefile = "gfx/interface/ideas/Kenyan_Economic_dominance.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Rising_Sinophobia"
+		texturefile = "gfx/interface/ideas/Rising_Sinophobia.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Direct_Democracy"
+		texturefile = "gfx/interface/ideas/Direct_Democracy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Far_Right_wave"
+		texturefile = "gfx/interface/ideas/Far_Right_Wave.dds"
+	}
 }	

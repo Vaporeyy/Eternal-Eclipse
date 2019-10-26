@@ -1,0 +1,66 @@
+ideas = {
+
+	country = {
+	
+		JAP_Declining_Society_idea = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+									
+			modifier = {
+				
+				
+			}
+
+			picture = Declining_society
+		}
+
+		JAP_Article_Nine_Appealed_idea = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+									
+			modifier = {
+				
+			}
+
+			picture = Article_9_Appealed
+		}
+		
+		JAP_Rising_Sinophobia_idea = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+									
+			modifier = {
+				
+			}
+
+			picture = Rising_Sinophobia
+		}
+		
+		JAP_Far_Right_Wave_idea = {
+			
+			allowed = {
+				original_tag = JAP
+			}
+
+									
+			modifier = {
+				
+				
+                                
+			}
+
+			picture = Far_Right_Wave
+		}
+		
+		
+	}	
+}	

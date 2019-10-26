@@ -1,7 +1,8 @@
 ﻿l_english:
-
- RAK_Reactionary_Autocracy: "Korean Reconstruction Authority"
- SOV_Conservatism: "Russian Federation"
- SYR_Populist_Nationalism: "Syrian Arab Republic"
+ FRA_Radical_Socialism:0 "French_Republic"
+ JAP_Nationalist_Populism:0 "Japan"
  PRC_Vanguard_Communism: "People's Republic of China"
- EAF_Centrism: "East African Federation"
+ RAK_Reactionary_Autocracy: "Korean Reconstruction Authority"
+ SOV_Conservatism: "Russian Union State"
+ SYR_Populist_Nationalism: "Syrian Arab Republic"
+ 

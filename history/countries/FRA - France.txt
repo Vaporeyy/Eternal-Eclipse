@@ -85,36 +85,38 @@ set_convoys = 300
 
 
 set_politics = {
-	ruling_party = Centrism
+	ruling_party = Radical_Socialism
 	last_election = "1932.5.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	Vanguard_Communism = 6
-	Post_Leftism = 13
-	Social_Democracy = 15
-	Liberalism = 17
-	Centrism = 12
-	Conservatism = 10
-	Reactionary_Autocracy = 1
-	Populist_Nationalism = 15
-	Neofascism = 11
+	Vanguard_Communism = 17
+	Radical_Socialism = 28
+	Social_Democracy = 2
+	Liberalism = 5
+	Centrism = 1
+	Conservatism = 18
+	Reactionary_Autocracy = 2
+	Populist_Nationalism = 12
+	Neofascism = 15
 }
 
 add_ideas = {
+	FRA_Sixth_Republic_idea
+	FRA_New_Ecological_Economy_idea
+	FRA_Maritime_Ambitions_idea
+	FRA_Direct_democracy_idea
 	
 }
 
 
-
-#Order matters here Daladier will start as leaders because added last
 create_country_leader = {
-	name = "Matthieu Lannion"
+	name = "Alexis Corbiere"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
-	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
-	ideology = Centrism_Subtype
+	picture = "portrait_FRA_Alexis_Corbiere.dds"
+	expire = "2965.1.1"
+	ideology = Radical_Socialism_subtype
 	traits = {
 		stout_defender
 	}

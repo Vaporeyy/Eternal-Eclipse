@@ -1,6 +1,6 @@
 ﻿capital = 547
 
-oob = "EAF_2036"
+#oob = "EAF_2036"
 
 
 
@@ -12,7 +12,7 @@ set_politics = {
 }
 set_popularities = {
 	Vanguard_Communism = 3
-	Post_Leftism = 5
+	Radical_Socialism = 5
 	Social_Democracy = 13
 	Liberalism = 16
 	Centrism = 34
@@ -23,6 +23,8 @@ set_popularities = {
 }
 
 add_ideas = {
+	EAF_Kenyan_Economic_Dominance_idea
+	EAF_South_Sudan_Conflict_idea
 	
 }
 

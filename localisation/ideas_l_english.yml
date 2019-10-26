@@ -1,4 +1,14 @@
 ﻿l_english:
+ FRA_Sixth_Republic_idea:0 "Sixth Republic"
+ FRA_New_Ecological_Economy_idea:0 "New Ecological Economy"
+ FRA_Maritime_Ambitions_idea:0 "Maritime Ambitions"
+ FRA_Direct_Democracy_idea:0 "Direct Democracy"
+ ##########################
+ JAP_Declining_Society_idea:0 "Declining Society"
+ JAP_Article_Nine_Appealed_idea:0 "Article Nine Appealed"
+ JAP_Rising_Sinophobia_idea:0 "Rising Sinophobia"
+ JAP_Far_Right_Wave_idea:0 "Far Right Wave"
+ ##########################
  PRC_Technocratic_Society_idea:0 "Technocratic Society"
  PRC_Technocratic_Society_idea_desc:0 "China's extensive efforts in developing and advancing digital technology have brought about a technologically proficient society. Civilian life is dominated by online programs such as the social credit system, and transactions are made almost entirely online. These developments have given the CPC great control of civilian life by being able to more directly monitor and direct civilian life. Overall, civilians feel more pressure to behave accordingly or else they'll forfeit access to services, or worse. China's society is one firmly ruled by the technological systems of the CPC."
  PRC_Aggressive_Outlook_idea:0 "Agressive Outlook"
