@@ -8,6 +8,12 @@ ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+
+RAK = {
+	color = rgb { 29 118 191 }
+	color_ui = rgb { 29 118 191 }
+}
+
 SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }
@@ -182,8 +188,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = hsv { 0.05 0.3 1 }
-	color_ui = hsv { 0.05 0.25 1.2 }
+	color = rgb { 242 242 242 }
+	color_ui = rgb { 242 242 242 }
 }
 LIB = {
 	color = rgb { 152 130 191 }

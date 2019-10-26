@@ -1,0 +1,39 @@
+ideas = {
+
+	country = {
+	
+		EAF_Kenyan_Economic_Dominance_idea = {
+			
+			allowed = {
+				original_tag = EAF
+			}
+
+									
+			modifier = {
+				
+				
+			}
+
+			picture = Kenyan_Economic_Dominance
+		}
+
+				
+		EAF_South_Sudan_Conflict_idea = {
+			
+			allowed = {
+				original_tag = EAF
+			}
+
+									
+			modifier = {
+				
+				
+                                
+			}
+
+			picture = South_Sudan_Conflict
+		}
+		
+		
+	}	
+}	
