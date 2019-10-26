@@ -1,0 +1,41 @@
+﻿capital = 547
+
+oob = "EAF_2036"
+
+
+
+set_politics = {
+	ruling_party = Centrism
+	last_election = "1932.11.8"
+	election_frequency = 48
+	elections_allowed = yes
+}
+set_popularities = {
+	Vanguard_Communism = 3
+	Post_Leftism = 5
+	Social_Democracy = 13
+	Liberalism = 16
+	Centrism = 34
+	Conservatism = 25
+	Reactionary_Autocracy = 0
+	Populist_Nationalism = 4
+	Neofascism = 0
+}
+
+add_ideas = {
+	
+}
+
+
+
+
+create_country_leader = {
+	name = "Elijah Lagat"
+	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
+	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	expire = "2045.1.1"
+	ideology = Centrism_subtype
+	traits = {
+	}
+}
+		
