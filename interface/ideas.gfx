@@ -106,4 +106,10 @@ spriteTypes = {
 		name = "GFX_idea_Far_Right_wave"
 		texturefile = "gfx/interface/ideas/Far_Right_Wave.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_idea_EU_Treaty_Negotiations"
+		texturefile = "gfx/interface/ideas/EU_Treaty_Negotiations.dds"
+	}
+	
 }	

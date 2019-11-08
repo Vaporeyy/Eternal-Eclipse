@@ -1,8 +1,12 @@
-GER	= "countries/Germany.txt"
+#EE tags
 RAK = "countries/Reconstruction Authority of Korea.txt"
 GRN = "countries/Greenland.txt"
 EAF = "countries/East African federation.txt"
 CSE = "countries/Crimean SEZ.txt"
+ZAP = "countries/Zapatista Army of National Liberation.txt"
+PRA = "countries/Popular Revolutionary Army.txt"
+#Vanilla tags
+GER	= "countries/Germany.txt"
 ENG = "countries/United Kingdom.txt"
 SOV = "countries/Russian Federation.txt"
 SWE	= "countries/Sweden.txt"

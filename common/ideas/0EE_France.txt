@@ -28,7 +28,7 @@ ideas = {
 			modifier = {
 				production_factory_max_efficiency_factor = -0.05
 				consumer_goods_factor = 0.10
-				political_power_gain = 0.20
+				political_power_gain = 0.3
 				production_speed_industrial_complex_factor = -0.05
 			}
 
@@ -65,6 +65,23 @@ ideas = {
 			}
 
 			picture = Direct_Democracy
+		}
+
+		FRA_EU_Treaty_Negotiations_idea = {
+			
+			allowed = {
+				original_tag = FRA
+			}
+
+									
+			modifier = {
+				political_power_gain = -0.2
+				decryption = -1
+				
+                                
+			}
+
+			picture = EU_Treaty_Negotiations
 		}
 		
 		

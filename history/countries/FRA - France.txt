@@ -107,6 +107,7 @@ add_ideas = {
 	FRA_New_Ecological_Economy_idea
 	FRA_Maritime_Ambitions_idea
 	FRA_Direct_democracy_idea
+	FRA_EU_Treaty_Negotiations_idea
 	
 }
 
