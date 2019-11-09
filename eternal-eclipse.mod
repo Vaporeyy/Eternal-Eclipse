@@ -8,4 +8,4 @@ supported_version="1.7.1"
 
 replace_path = "common/national_focus"
 replace_path = "common/bookmarks"
-replace_path = "common/events"
+replace_path = "events"
