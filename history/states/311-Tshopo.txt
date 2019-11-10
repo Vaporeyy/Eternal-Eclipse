@@ -1,0 +1,32 @@
+
+state = {
+	id = 311
+	name = "STATE_311"
+
+	history = {
+		owner = DRC
+		victory_points = {
+			1950 10 
+		}
+		victory_points = {
+			6400 1 
+		}
+		victory_points = {
+			6248 2 
+		}
+		buildings = {
+			infrastructure = 0
+			air_base = 2
+
+		}
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces = {
+		1950 6248 6273 6387 6396 6400 6409 8048 10951 12847 
+	}
+	manpower = 4258265
+	buildings_max_level_factor = 1.000
+	state_category = state_05
+}

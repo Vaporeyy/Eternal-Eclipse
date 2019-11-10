@@ -1,6 +1,6 @@
+#Papua New Guinea
 
+graphical_culture = eastern_european_gfx
+graphical_culture_2d = eastern_european_2d	 
 
-graphical_culture = african_gfx
-graphical_culture_2d = african_2d
-
-color = rgb { 153 0 76 }
+color = { 1 87  20 } #random

@@ -1,6 +1,6 @@
-
+#Djibouti
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 0 102 153 }
+color = { 28 43  118 } #random

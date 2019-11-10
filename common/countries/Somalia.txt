@@ -1,6 +1,6 @@
-
+#Somalia
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 51 102 0 }
+color = { 58 93  118 } #random

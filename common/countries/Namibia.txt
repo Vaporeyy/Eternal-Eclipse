@@ -1,6 +1,6 @@
-
+#Namibia
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 229 204 255 }
+color = { 183 138  250 } #random

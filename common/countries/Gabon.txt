@@ -1,6 +1,6 @@
-
+#Gabon
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 51 204 204 }
+color = { 30 50  10 } #random

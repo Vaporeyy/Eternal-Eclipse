@@ -1,0 +1,23 @@
+state = {
+	id = 936
+	name = "STATE_936"
+
+	history = {
+		owner = ITA
+		buildings = {
+			infrastructure = 8
+		}
+		add_core_of = ITA
+		2017.1.1 = {
+			#add_manpower = 1
+		}
+
+	}
+
+	provinces = {
+		3885 6926 9794
+	}
+	manpower = 1000
+	buildings_max_level_factor = 1.000
+	state_category = state_00
+}

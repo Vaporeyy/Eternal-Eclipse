@@ -1,6 +1,6 @@
-
+#Rwanda
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 255 255 102 }
+color = { 23 34  12 } #random

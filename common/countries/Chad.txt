@@ -1,6 +1,6 @@
-
+#Chad
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 204 255 204 }
+color = { 98 53  138 } #random

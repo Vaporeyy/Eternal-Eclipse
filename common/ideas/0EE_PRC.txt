@@ -2,10 +2,10 @@ ideas = {
 
 	country = {
 	
-		PRC_Technocratic_Society_idea = {
+		CHI_Technocratic_Society_idea = {
 			
 			allowed = {
-				original_tag = PRC
+				original_tag = CHI
 			}
 
 									
@@ -19,10 +19,10 @@ ideas = {
 			picture = Technocratic_Society
 		}
 
-		PRC_Aggressive_Outlook_idea = {
+		CHI_Aggressive_Outlook_idea = {
 			
 			allowed = {
-				original_tag = PRC
+				original_tag = CHI
 			}
 
 									
@@ -36,10 +36,10 @@ ideas = {
 			picture = Aggressive_Outlook
 		}
 		
-		PRC_Fractured_Party_idea = {
+		CHI_Fractured_Party_idea = {
 			
 			allowed = {
-				original_tag = PRC
+				original_tag = CHI
 			}
 
 									
@@ -51,10 +51,10 @@ ideas = {
 			picture = Fractured_Party
 		}
 		
-		PRC_Neo_Maoism_idea = {
+		CHI_Neo_Maoism_idea = {
 			
 			allowed = {
-				original_tag = PRC
+				original_tag = CHI
 			}
 
 									

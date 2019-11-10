@@ -1,0 +1,21 @@
+state = {
+	id = 921
+	name = "STATE_921"
+	
+	history = {
+		owner = LOG
+		add_core_of = CAR
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			1974 1 
+		}
+	}
+	provinces = {
+		1883 1974 5084 7919 9319 9333 9344 9345 9348 9353 
+	}
+	manpower = 317235
+	buildings_max_level_factor = 1.000
+	state_category = state_01
+}

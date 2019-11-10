@@ -1,6 +1,6 @@
-
+#Sudan
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 204 102 0 }
+color = { 238 153  138 } #random

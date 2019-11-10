@@ -1,0 +1,23 @@
+state = {
+	id = 308
+	name = "STATE_308"
+	manpower = 2465650
+	state_category = state_03
+	
+	resources = {
+		tungsten = 14
+	}
+
+	history = {
+		owner = DRC
+		buildings = {
+			infrastructure = 1
+			
+		}
+		set_demilitarized_zone = yes
+	}
+
+	provinces = {
+		4941
+	}
+}

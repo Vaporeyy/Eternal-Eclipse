@@ -1,6 +1,6 @@
-
+#Guinea
 
 graphical_culture = african_gfx
 graphical_culture_2d = african_2d
 
-color = rgb { 102 153 255 }
+color = { 200 89  10 } #random
