@@ -1,0 +1,36 @@
+﻿2000.1.1 = {
+
+
+	capital = 45
+		
+	
+add_ideas = { 
+ 
+}
+
+	set_politics = { 
+		ruling_party = Centrism 
+		last_election = "1999.10.3"
+		election_frequency = 60
+		elections_allowed = yes
+	}
+
+	set_popularities = {
+		Vanguard_Communism = 4
+		Radical_Socialism = 10
+		Social_Democracy = 16
+		Liberalism = 10
+		Centrism = 20
+		Conservatism = 18
+		Reactionary_Autocracy = 5
+		Populist_Nationalism = 12
+		Neofascism = 5
+	}
+	create_country_leader = {
+		name = "Daniel Günther"
+		desc = ""
+		picture = ""
+		expire = "2165.1.1"
+		ideology = Centrism_subtype
+		traits = 
+	}

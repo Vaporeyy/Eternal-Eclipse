@@ -58,15 +58,16 @@ ideas = {
 			modifier = {
 				consumer_goods_factor = 0.20
                 		training_time_factor = -0.05
-				targeted_modifier = { 
+						}
+			targeted_modifier = { 
 					tag = RUS 
 					trade_cost_for_target_factor = -0.25 
-				}
-				targeted_modifier = { 
+			}
+			targeted_modifier = { 
 					tag = PER 
 					trade_cost_for_target_factor = -0.25 
-				}
-                	}
+			}
+                	
 			picture = Russian_Iranian_Rivalry
 		}
 

@@ -1,0 +1,94 @@
+bookmarks = {
+	bookmark = {
+		name = "ETERNAL_ECLIPSE_NAME"
+		desc = "ETERNAL_ECLIPSE_DESC"
+		date = 2036.1.1.12
+		picture = "GFX_select_date_1939"
+		default_country = "CHI"
+	
+		FRA = {
+			history = FRA_ETERNAL_ECLIPSE_DESC
+			ideology = Radical_Socialism
+			ideas={
+				FRA_Sixth_Republic_idea
+				FRA_EU_Treaty_Negotiations_idea
+				FRA_New_Ecological_Economy_idea
+			}
+			focuses = {
+				
+			}
+		}
+		USA = {
+			history = USA_ETERNAL_ECLIPSE_DESC
+			ideology = Liberalism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		ENG = {
+			history = ENG_ETERNAL_ECLIPSE_DESC
+			ideology = Conservatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+			
+		}
+		GER = {
+			history = GER_ETERNAL_ECLIPSE_DESC
+			ideology = Centrism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		CHI = {
+			history = CHI_ETERNAL_ECLIPSE_DESC
+			ideology = Vanguard_Communism
+			ideas={
+				
+			}
+			focuses = {
+				
+			}			
+		}
+		RAJ = {
+			history = RAJ_BLITZKRIEG_DESC
+			ideology = Vanguard_Communism
+			ideas={
+				
+			}	
+			focuses = {
+				
+			}		
+		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = Conservatism
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+
+		"---"={
+			history = "OTHER_BLITZKRIEG_DESC"
+		}
+
+		
+		
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

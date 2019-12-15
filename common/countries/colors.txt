@@ -1,10 +1,5 @@
-#EE colors
-RAK = {
-	color = rgb { 29 118 191 }
-	color_ui = rgb { 29 118 191 }
-}
-
 #reload countrycolors
+
 GER = {
 	color = RGB { 110 110 110 }
 	color_ui = rgb { 110 110 110 }
@@ -150,8 +145,8 @@ CAN = {
 	color_ui = rgb { 155 62 51 }
 }
 CHI = {
-	color = rgb { 277 5 5 } 
-	color_ui = rgb { 277 5 5  }
+	color = rgb { 220 32 0 } #255 244 190
+	color_ui = rgb { 220 32 0 }
 }
 CHL = {
 	color = rgb { 213 43 30 }
@@ -190,8 +185,8 @@ IRQ = {
 	color_ui = rgb { 231 148 129 }
 }
 JAP = {
-	color = rgb { 242 242 242 }
-	color_ui = rgb { 242 242 242 }
+	color = rgb { 255 128 128 }
+	color_ui = rgb { 255 128 128 }
 }
 LIB = {
 	color = rgb { 20 133 237 }

@@ -14,7 +14,7 @@ ideas = {
 				
 			}
 
-			picture = Declining_society
+			picture = Declining_Society
 		}
 
 		JAP_Article_Nine_Appealed_idea = {
@@ -58,7 +58,7 @@ ideas = {
                                 
 			}
 
-			picture = Far_Right_Wave
+			picture = Far_Right_wave
 		}
 		
 		

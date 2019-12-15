@@ -21,3 +21,4 @@ replace_path = "map/strategicregions"
 replace_path = "map/supplyareas"
 replace_path = "portraits"
 replace_path = "common/country_leader"
+replace_path = "common/units

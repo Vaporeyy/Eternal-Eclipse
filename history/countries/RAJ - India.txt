@@ -1,0 +1,42 @@
+﻿
+capital = 431
+		
+set_convoys = 10
+	
+
+	
+set_politics = { 
+	ruling_party = Vanguard_Communism
+	last_election = "1999.10.3"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	Vanguard_Communism = 22
+	Radical_Socialism = 9
+	Social_Democracy = 11
+	Liberalism = 7
+	Centrism = 6
+	Conservatism = 10
+	Reactionary_Autocracy = 0
+	Populist_Nationalism = 20
+	Neofascism = 15
+}
+
+add_ideas = {
+	
+	}
+
+create_country_leader = {
+	name = "Kanhaiya Kumar"
+	desc = ""
+	picture = ""
+	expire = "2165.1.1"
+	ideology = Marxist_Leninism
+	traits = {
+		#
+	}
+}
+
+

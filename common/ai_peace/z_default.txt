@@ -1,0 +1,303 @@
+# Default Logic behaviour that the AI will fallback on if no other fits the bill
+# Should just be "good enough" to make sure the AI acts smart in the war
+# Written by Henrik "Groogy" Hansson
+
+#Adjustments
+#Default AI (ie neutral AI) will act like a mix between democratic and fascist, but in general way more conservative and mostly interested in obtaining cores and the status quo. If they have enough warscore, they will puppet/liberate neighbors as well.
+#Neutral AI in general do not directly annex other nations.
+#The plan is to eventually make individualized AI for every country in the game.
+
+default_peace = {
+	enable = {
+		always = yes
+	}
+
+	annex_randomness = 0
+	liberate_randomness = 0
+	puppet_randomness = 0
+	take_states_randomness = 0
+	force_government_randomness = 0
+	
+	# ROOT = Taker, FROM = Giver
+	annex = {
+		#add = 10000
+		modifier = {
+			add = 10000
+			always = yes
+		}
+	}
+
+	# ROOT = Taker, FROM = Liberated
+	liberate = {
+		factor = 0
+		modifier = {
+			factor = 0
+			always = yes
+		}
+	}
+
+	# ROOT = Taker, FROM = Giver
+	puppet = {
+		factor = 0
+		modifier = {
+			factor = 0
+			has_annex_war_goal = ROOT 
+		}
+	}
+
+	# ROOT = Taker, FROM = State
+	take_states = {
+		#add = 5000 #always take anything happily
+		modifier = { #very good to take controlled states
+			add = 5000
+			FROM = {
+				is_controlled_by = ROOT
+			}
+		}
+		modifier = { #very good to take adjacent states
+			add = 5000
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 0
+						owner = ROOT
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 0
+						owner = ROOT
+					}
+				}
+			}
+		}
+		modifier = { #very good to take adjacent states
+			add = 5000
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 1
+						owner = ROOT
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 1
+						owner = ROOT
+					}
+				}
+			}
+		}
+		modifier = { #very good to take adjacent states
+			add = 5000
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 2
+						owner = ROOT
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 2
+						owner = ROOT
+					}
+				}
+			}
+		}
+		modifier = { #very good to take adjacent states
+			add = 5000
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 3
+						owner = ROOT
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 2
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 2
+							owner = ROOT
+						}
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 3
+						owner = ROOT
+					}
+				}
+			}
+		}
+		modifier = { #very good to take adjacent states
+			add = 5000
+			FROM = {
+				OR = {
+					num_owned_neighbour_states = {
+						count > 4
+						owner = ROOT
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 3
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 2
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 1
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 2
+							owner = ROOT
+						}
+					}
+					AND = {
+						num_owned_neighbour_states = {
+							count > 0
+							owner = ROOT
+						}
+						num_claimed_peace_conference_neighbour_states = {
+							count > 3
+							owner = ROOT
+						}
+					}
+					num_claimed_peace_conference_neighbour_states = {
+						count > 4
+						owner = ROOT
+					}
+				}
+			}
+		}
+		modifier = { #much better to take states that expands home area
+			add = 25000
+			FROM = {
+				OR = {
+					any_neighbor_state = {
+						is_owned_by = ROOT
+						is_in_home_area = yes
+					}
+					any_neighbor_state = {
+						any_neighbor_state = {
+							is_owned_by = ROOT
+							is_in_home_area = yes
+						}
+					}
+					any_neighbor_state = {
+						any_neighbor_state = {
+							any_neighbor_state = {
+								is_owned_by = ROOT
+								is_in_home_area = yes
+							}
+						}
+					}
+					any_neighbor_state = {
+						any_neighbor_state = {
+							any_neighbor_state = {
+								any_neighbor_state = {
+									is_owned_by = ROOT
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+					any_neighbor_state = {
+						any_neighbor_state = {
+							any_neighbor_state = {
+								any_neighbor_state = {
+									any_neighbor_state = {
+										is_owned_by = ROOT
+										is_in_home_area = yes
+									}
+								}
+							}
+						}
+					}
+					any_neighbor_state = {
+						any_neighbor_state = {
+							any_neighbor_state = {
+								any_neighbor_state = {
+									any_neighbor_state = {
+										any_neighbor_state = {
+											is_owned_by = ROOT
+											is_in_home_area = yes
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	# ROOT = Taker, FROM = Giver
+	force_government = {
+		factor = 0
+		modifier = {
+			factor = 0
+			always = yes
+		}
+	}
+}

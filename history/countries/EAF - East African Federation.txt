@@ -1,6 +1,6 @@
 ﻿capital = 547
 
-#oob = "EAF_2036"
+
 
 
 
@@ -34,7 +34,7 @@ add_ideas = {
 create_country_leader = {
 	name = "Elijah Lagat"
 	desc = "POLITICS_FRANKLIN_DELANO_ROOSEVELT_DESC"
-	picture = "Portrait_USA_Franklin_Roosevelt.dds"
+	picture = "portrait_EAF_Elijah_Lagat.dds"
 	expire = "2045.1.1"
 	ideology = Centrism_subtype
 	traits = {
